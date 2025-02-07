@@ -5,8 +5,9 @@ import { promises as fs } from "fs";
 //   return JSON.parse(await fs.writeFile(filePath, dataString, "utf8"));
 // }
 
-export default  function writeFile(filePath,data) {
-fs.writeFile(filePath, JSON.stringify(data, null, 2), (err) => {
-  if (err) throw err;
-  console.log('Data has been saved!');
-})}
+export default function writeFile(filePath, data) {
+  fs.writeFile(filePath, JSON.stringify(data, null, 2), (err) => {
+    if (err) throw err;
+    console.log("Data has been saved!");
+  });
+}

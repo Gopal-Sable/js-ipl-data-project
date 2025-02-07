@@ -14,10 +14,10 @@
     "win_by_runs": "35",
     "win_by_wickets": "0",
     "player_of_match": "Yuvraj Singh",
-    "venue": "\"Rajiv Gandhi International Stadium",
-    "umpire1": "Uppal\"",
-    "umpire2": "AY Dandekar",
-    "umpire3": "NJ Llong"
+    "venue": "Rajiv Gandhi International Stadium, Uppal",
+    "umpire1": "AY Dandekar",
+    "umpire2": "NJ Llong",
+    "umpire3": ""
   },
   {
     "id": "2",
@@ -114,10 +114,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "9",
     "player_of_match": "Rashid Khan",
-    "venue": "\"Rajiv Gandhi International Stadium",
-    "umpire1": "Uppal\"",
-    "umpire2": "A Deshmukh",
-    "umpire3": "NJ Llong"
+    "venue": "Rajiv Gandhi International Stadium, Uppal",
+    "umpire1": "A Deshmukh",
+    "umpire2": "NJ Llong",
+    "umpire3": ""
   },
   {
     "id": "7",
@@ -374,10 +374,10 @@
     "win_by_runs": "5",
     "win_by_wickets": "0",
     "player_of_match": "B Kumar",
-    "venue": "\"Rajiv Gandhi International Stadium",
-    "umpire1": "Uppal\"",
-    "umpire2": "AY Dandekar",
-    "umpire3": "A Deshmukh"
+    "venue": "Rajiv Gandhi International Stadium, Uppal",
+    "umpire1": "AY Dandekar",
+    "umpire2": "A Deshmukh",
+    "umpire3": ""
   },
   {
     "id": "20",
@@ -414,10 +414,10 @@
     "win_by_runs": "15",
     "win_by_wickets": "0",
     "player_of_match": "KS Williamson",
-    "venue": "\"Rajiv Gandhi International Stadium",
-    "umpire1": "Uppal\"",
-    "umpire2": "CB Gaffaney",
-    "umpire3": "NJ Llong"
+    "venue": "Rajiv Gandhi International Stadium, Uppal",
+    "umpire1": "CB Gaffaney",
+    "umpire2": "NJ Llong",
+    "umpire3": ""
   },
   {
     "id": "22",
@@ -634,10 +634,10 @@
     "win_by_runs": "26",
     "win_by_wickets": "0",
     "player_of_match": "Rashid Khan",
-    "venue": "\"Punjab Cricket Association IS Bindra Stadium",
-    "umpire1": "Mohali\"",
-    "umpire2": "Nitin Menon",
-    "umpire3": "CK Nandan"
+    "venue": "Punjab Cricket Association IS Bindra Stadium, Mohali",
+    "umpire1": "Nitin Menon",
+    "umpire2": "CK Nandan",
+    "umpire3": ""
   },
   {
     "id": "33",
@@ -694,10 +694,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "10",
     "player_of_match": "Sandeep Sharma",
-    "venue": "\"Punjab Cricket Association IS Bindra Stadium",
-    "umpire1": "Mohali\"",
-    "umpire2": "YC Barde",
-    "umpire3": "CK Nandan"
+    "venue": "Punjab Cricket Association IS Bindra Stadium, Mohali",
+    "umpire1": "YC Barde",
+    "umpire2": "CK Nandan",
+    "umpire3": ""
   },
   {
     "id": "36",
@@ -714,10 +714,10 @@
     "win_by_runs": "48",
     "win_by_wickets": "0",
     "player_of_match": "DA Warner",
-    "venue": "\"Rajiv Gandhi International Stadium",
-    "umpire1": "Uppal\"",
-    "umpire2": "AY Dandekar",
-    "umpire3": "S Ravi"
+    "venue": "Rajiv Gandhi International Stadium, Uppal",
+    "umpire1": "AY Dandekar",
+    "umpire2": "S Ravi",
+    "umpire3": ""
   },
   {
     "id": "37",
@@ -854,10 +854,10 @@
     "win_by_runs": "12",
     "win_by_wickets": "0",
     "player_of_match": "JD Unadkat",
-    "venue": "\"Rajiv Gandhi International Stadium",
-    "umpire1": "Uppal\"",
-    "umpire2": "KN Ananthapadmanabhan",
-    "umpire3": "AK Chaudhary"
+    "venue": "Rajiv Gandhi International Stadium, Uppal",
+    "umpire1": "KN Ananthapadmanabhan",
+    "umpire2": "AK Chaudhary",
+    "umpire3": ""
   },
   {
     "id": "44",
@@ -914,10 +914,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "6",
     "player_of_match": "DR Smith",
-    "venue": "\"Punjab Cricket Association IS Bindra Stadium",
-    "umpire1": "Mohali\"",
-    "umpire2": "A Nand Kishore",
-    "umpire3": "VK Sharma"
+    "venue": "Punjab Cricket Association IS Bindra Stadium, Mohali",
+    "umpire1": "A Nand Kishore",
+    "umpire2": "VK Sharma",
+    "umpire3": ""
   },
   {
     "id": "47",
@@ -934,10 +934,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "7",
     "player_of_match": "S Dhawan",
-    "venue": "\"Rajiv Gandhi International Stadium",
-    "umpire1": "Uppal\"",
-    "umpire2": "KN Ananthapadmanabhan",
-    "umpire3": "M Erasmus"
+    "venue": "Rajiv Gandhi International Stadium, Uppal",
+    "umpire1": "KN Ananthapadmanabhan",
+    "umpire2": "M Erasmus",
+    "umpire3": ""
   },
   {
     "id": "48",
@@ -954,10 +954,10 @@
     "win_by_runs": "14",
     "win_by_wickets": "0",
     "player_of_match": "MM Sharma",
-    "venue": "\"Punjab Cricket Association IS Bindra Stadium",
-    "umpire1": "Mohali\"",
-    "umpire2": "A Nand Kishore",
-    "umpire3": "S Ravi"
+    "venue": "Punjab Cricket Association IS Bindra Stadium, Mohali",
+    "umpire1": "A Nand Kishore",
+    "umpire2": "S Ravi",
+    "umpire3": ""
   },
   {
     "id": "49",
@@ -1174,10 +1174,10 @@
     "win_by_runs": "1",
     "win_by_wickets": "0",
     "player_of_match": "KH Pandya",
-    "venue": "\"Rajiv Gandhi International Stadium",
-    "umpire1": "Uppal\"",
-    "umpire2": "NJ Llong",
-    "umpire3": "S Ravi"
+    "venue": "Rajiv Gandhi International Stadium, Uppal",
+    "umpire1": "NJ Llong",
+    "umpire2": "S Ravi",
+    "umpire3": ""
   },
   {
     "id": "60",
@@ -1214,10 +1214,10 @@
     "win_by_runs": "33",
     "win_by_wickets": "0",
     "player_of_match": "MEK Hussey",
-    "venue": "\"Punjab Cricket Association Stadium",
-    "umpire1": "Mohali\"",
-    "umpire2": "MR Benson",
-    "umpire3": "SL Shastri"
+    "venue": "Punjab Cricket Association Stadium, Mohali",
+    "umpire1": "MR Benson",
+    "umpire2": "SL Shastri",
+    "umpire3": ""
   },
   {
     "id": "62",
@@ -1314,10 +1314,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "9",
     "player_of_match": "V Sehwag",
-    "venue": "\"Rajiv Gandhi International Stadium",
-    "umpire1": "Uppal\"",
-    "umpire2": "IL Howell",
-    "umpire3": "AM Saheba"
+    "venue": "Rajiv Gandhi International Stadium, Uppal",
+    "umpire1": "IL Howell",
+    "umpire2": "AM Saheba",
+    "umpire3": ""
   },
   {
     "id": "67",
@@ -1334,10 +1334,10 @@
     "win_by_runs": "6",
     "win_by_wickets": "0",
     "player_of_match": "ML Hayden",
-    "venue": "\"MA Chidambaram Stadium",
-    "umpire1": "Chepauk\"",
-    "umpire2": "DJ Harper",
-    "umpire3": "GA Pratapkumar"
+    "venue": "MA Chidambaram Stadium, Chepauk",
+    "umpire1": "DJ Harper",
+    "umpire2": "GA Pratapkumar",
+    "umpire3": ""
   },
   {
     "id": "68",
@@ -1354,10 +1354,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "3",
     "player_of_match": "YK Pathan",
-    "venue": "\"Rajiv Gandhi International Stadium",
-    "umpire1": "Uppal\"",
-    "umpire2": "Asad Rauf",
-    "umpire3": "MR Benson"
+    "venue": "Rajiv Gandhi International Stadium, Uppal",
+    "umpire1": "Asad Rauf",
+    "umpire2": "MR Benson",
+    "umpire3": ""
   },
   {
     "id": "69",
@@ -1374,10 +1374,10 @@
     "win_by_runs": "66",
     "win_by_wickets": "0",
     "player_of_match": "KC Sangakkara",
-    "venue": "\"Punjab Cricket Association Stadium",
-    "umpire1": "Mohali\"",
-    "umpire2": "Aleem Dar",
-    "umpire3": "AM Saheba"
+    "venue": "Punjab Cricket Association Stadium, Mohali",
+    "umpire1": "Aleem Dar",
+    "umpire2": "AM Saheba",
+    "umpire3": ""
   },
   {
     "id": "70",
@@ -1414,10 +1414,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "9",
     "player_of_match": "JDP Oram",
-    "venue": "\"MA Chidambaram Stadium",
-    "umpire1": "Chepauk\"",
-    "umpire2": "BF Bowden",
-    "umpire3": "AV Jayaprakash"
+    "venue": "MA Chidambaram Stadium, Chepauk",
+    "umpire1": "BF Bowden",
+    "umpire2": "AV Jayaprakash",
+    "umpire3": ""
   },
   {
     "id": "72",
@@ -1454,10 +1454,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "4",
     "player_of_match": "SM Katich",
-    "venue": "\"Punjab Cricket Association Stadium",
-    "umpire1": "Mohali\"",
-    "umpire2": "RE Koertzen",
-    "umpire3": "I Shivram"
+    "venue": "Punjab Cricket Association Stadium, Mohali",
+    "umpire1": "RE Koertzen",
+    "umpire2": "I Shivram",
+    "umpire3": ""
   },
   {
     "id": "74",
@@ -1534,10 +1534,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "7",
     "player_of_match": "SE Marsh",
-    "venue": "\"Rajiv Gandhi International Stadium",
-    "umpire1": "Uppal\"",
-    "umpire2": "BR Doctrove",
-    "umpire3": "RB Tiffin"
+    "venue": "Rajiv Gandhi International Stadium, Uppal",
+    "umpire1": "BR Doctrove",
+    "umpire2": "RB Tiffin",
+    "umpire3": ""
   },
   {
     "id": "78",
@@ -1574,10 +1574,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "8",
     "player_of_match": "V Sehwag",
-    "venue": "\"MA Chidambaram Stadium",
-    "umpire1": "Chepauk\"",
-    "umpire2": "BF Bowden",
-    "umpire3": "K Hariharan"
+    "venue": "MA Chidambaram Stadium, Chepauk",
+    "umpire1": "BF Bowden",
+    "umpire2": "K Hariharan",
+    "umpire3": ""
   },
   {
     "id": "80",
@@ -1594,10 +1594,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "5",
     "player_of_match": "R Vinay Kumar",
-    "venue": "\"Rajiv Gandhi International Stadium",
-    "umpire1": "Uppal\"",
-    "umpire2": "Asad Rauf",
-    "umpire3": "RE Koertzen"
+    "venue": "Rajiv Gandhi International Stadium, Uppal",
+    "umpire1": "Asad Rauf",
+    "umpire2": "RE Koertzen",
+    "umpire3": ""
   },
   {
     "id": "81",
@@ -1614,10 +1614,10 @@
     "win_by_runs": "9",
     "win_by_wickets": "0",
     "player_of_match": "IK Pathan",
-    "venue": "\"Punjab Cricket Association Stadium",
-    "umpire1": "Mohali\"",
-    "umpire2": "DJ Harper",
-    "umpire3": "I Shivram"
+    "venue": "Punjab Cricket Association Stadium, Mohali",
+    "umpire1": "DJ Harper",
+    "umpire2": "I Shivram",
+    "umpire3": ""
   },
   {
     "id": "82",
@@ -1694,10 +1694,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "7",
     "player_of_match": "AC Gilchrist",
-    "venue": "\"MA Chidambaram Stadium",
-    "umpire1": "Chepauk\"",
-    "umpire2": "MR Benson",
-    "umpire3": "RB Tiffin"
+    "venue": "MA Chidambaram Stadium, Chepauk",
+    "umpire1": "MR Benson",
+    "umpire2": "RB Tiffin",
+    "umpire3": ""
   },
   {
     "id": "86",
@@ -1814,10 +1814,10 @@
     "win_by_runs": "18",
     "win_by_wickets": "0",
     "player_of_match": "L Balaji",
-    "venue": "\"MA Chidambaram Stadium",
-    "umpire1": "Chepauk\"",
-    "umpire2": "AV Jayaprakash",
-    "umpire3": "BG Jerling"
+    "venue": "MA Chidambaram Stadium, Chepauk",
+    "umpire1": "AV Jayaprakash",
+    "umpire2": "BG Jerling",
+    "umpire3": ""
   },
   {
     "id": "92",
@@ -1834,10 +1834,10 @@
     "win_by_runs": "23",
     "win_by_wickets": "0",
     "player_of_match": "SC Ganguly",
-    "venue": "\"Rajiv Gandhi International Stadium",
-    "umpire1": "Uppal\"",
-    "umpire2": "IL Howell",
-    "umpire3": "AM Saheba"
+    "venue": "Rajiv Gandhi International Stadium, Uppal",
+    "umpire1": "IL Howell",
+    "umpire2": "AM Saheba",
+    "umpire3": ""
   },
   {
     "id": "93",
@@ -1874,10 +1874,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "9",
     "player_of_match": "SE Marsh",
-    "venue": "\"Punjab Cricket Association Stadium",
-    "umpire1": "Mohali\"",
-    "umpire2": "BR Doctrove",
-    "umpire3": "I Shivram"
+    "venue": "Punjab Cricket Association Stadium, Mohali",
+    "umpire1": "BR Doctrove",
+    "umpire2": "I Shivram",
+    "umpire3": ""
   },
   {
     "id": "95",
@@ -1934,10 +1934,10 @@
     "win_by_runs": "41",
     "win_by_wickets": "0",
     "player_of_match": "SE Marsh",
-    "venue": "\"Punjab Cricket Association Stadium",
-    "umpire1": "Mohali\"",
-    "umpire2": "SJ Davis",
-    "umpire3": "K Hariharan"
+    "venue": "Punjab Cricket Association Stadium, Mohali",
+    "umpire1": "SJ Davis",
+    "umpire2": "K Hariharan",
+    "umpire3": ""
   },
   {
     "id": "98",
@@ -2034,10 +2034,10 @@
     "win_by_runs": "25",
     "win_by_wickets": "0",
     "player_of_match": "DJ Bravo",
-    "venue": "\"Rajiv Gandhi International Stadium",
-    "umpire1": "Uppal\"",
-    "umpire2": "BR Doctrove",
-    "umpire3": "DJ Harper"
+    "venue": "Rajiv Gandhi International Stadium, Uppal",
+    "umpire1": "BR Doctrove",
+    "umpire2": "DJ Harper",
+    "umpire3": ""
   },
   {
     "id": "103",
@@ -2134,10 +2134,10 @@
     "win_by_runs": "14",
     "win_by_wickets": "0",
     "player_of_match": "A Kumble",
-    "venue": "\"MA Chidambaram Stadium",
-    "umpire1": "Chepauk\"",
-    "umpire2": "DJ Harper",
-    "umpire3": "I Shivram"
+    "venue": "MA Chidambaram Stadium, Chepauk",
+    "umpire1": "DJ Harper",
+    "umpire2": "I Shivram",
+    "umpire3": ""
   },
   {
     "id": "108",
@@ -2154,10 +2154,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "6",
     "player_of_match": "SE Marsh",
-    "venue": "\"Punjab Cricket Association Stadium",
-    "umpire1": "Mohali\"",
-    "umpire2": "Asad Rauf",
-    "umpire3": "SJ Davis"
+    "venue": "Punjab Cricket Association Stadium, Mohali",
+    "umpire1": "Asad Rauf",
+    "umpire2": "SJ Davis",
+    "umpire3": ""
   },
   {
     "id": "109",
@@ -2194,10 +2194,10 @@
     "win_by_runs": "10",
     "win_by_wickets": "0",
     "player_of_match": "JA Morkel",
-    "venue": "\"MA Chidambaram Stadium",
-    "umpire1": "Chepauk\"",
-    "umpire2": "DJ Harper",
-    "umpire3": "SL Shastri"
+    "venue": "MA Chidambaram Stadium, Chepauk",
+    "umpire1": "DJ Harper",
+    "umpire2": "SL Shastri",
+    "umpire3": ""
   },
   {
     "id": "111",
@@ -2274,10 +2274,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "7",
     "player_of_match": "SK Raina",
-    "venue": "\"Rajiv Gandhi International Stadium",
-    "umpire1": "Uppal\"",
-    "umpire2": "BG Jerling",
-    "umpire3": "AM Saheba"
+    "venue": "Rajiv Gandhi International Stadium, Uppal",
+    "umpire1": "BG Jerling",
+    "umpire2": "AM Saheba",
+    "umpire3": ""
   },
   {
     "id": "115",
@@ -3534,10 +3534,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "5",
     "player_of_match": "G Gambhir",
-    "venue": "\"Punjab Cricket Association Stadium",
-    "umpire1": "Mohali\"",
-    "umpire2": "BR Doctrove",
-    "umpire3": "S Ravi"
+    "venue": "Punjab Cricket Association Stadium, Mohali",
+    "umpire1": "BR Doctrove",
+    "umpire2": "S Ravi",
+    "umpire3": ""
   },
   {
     "id": "178",
@@ -3574,10 +3574,10 @@
     "win_by_runs": "31",
     "win_by_wickets": "0",
     "player_of_match": "WPUJC Vaas",
-    "venue": "\"MA Chidambaram Stadium",
-    "umpire1": "Chepauk\"",
-    "umpire2": "K Hariharan",
-    "umpire3": "DJ Harper"
+    "venue": "MA Chidambaram Stadium, Chepauk",
+    "umpire1": "K Hariharan",
+    "umpire2": "DJ Harper",
+    "umpire3": ""
   },
   {
     "id": "180",
@@ -3594,10 +3594,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "6",
     "player_of_match": "V Sehwag",
-    "venue": "\"Sardar Patel Stadium",
-    "umpire1": "Motera\"",
-    "umpire2": "BG Jerling",
-    "umpire3": "RE Koertzen"
+    "venue": "Sardar Patel Stadium, Motera",
+    "umpire1": "BG Jerling",
+    "umpire2": "RE Koertzen",
+    "umpire3": ""
   },
   {
     "id": "181",
@@ -3734,10 +3734,10 @@
     "win_by_runs": "34",
     "win_by_wickets": "0",
     "player_of_match": "AA Jhunjhunwala",
-    "venue": "\"Sardar Patel Stadium",
-    "umpire1": "Motera\"",
-    "umpire2": "RE Koertzen",
-    "umpire3": "RB Tiffin"
+    "venue": "Sardar Patel Stadium, Motera",
+    "umpire1": "RE Koertzen",
+    "umpire2": "RB Tiffin",
+    "umpire3": ""
   },
   {
     "id": "188",
@@ -3794,10 +3794,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "0",
     "player_of_match": "J Theron",
-    "venue": "\"MA Chidambaram Stadium",
-    "umpire1": "Chepauk\"",
-    "umpire2": "K Hariharan",
-    "umpire3": "DJ Harper"
+    "venue": "MA Chidambaram Stadium, Chepauk",
+    "umpire1": "K Hariharan",
+    "umpire2": "DJ Harper",
+    "umpire3": ""
   },
   {
     "id": "191",
@@ -3854,10 +3854,10 @@
     "win_by_runs": "31",
     "win_by_wickets": "0",
     "player_of_match": "AC Voges",
-    "venue": "\"Punjab Cricket Association Stadium",
-    "umpire1": "Mohali\"",
-    "umpire2": "BR Doctrove",
-    "umpire3": "SK Tarapore"
+    "venue": "Punjab Cricket Association Stadium, Mohali",
+    "umpire1": "BR Doctrove",
+    "umpire2": "SK Tarapore",
+    "umpire3": ""
   },
   {
     "id": "194",
@@ -3894,10 +3894,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "8",
     "player_of_match": "YK Pathan",
-    "venue": "\"Sardar Patel Stadium",
-    "umpire1": "Motera\"",
-    "umpire2": "HDPK Dharmasena",
-    "umpire3": "SJA Taufel"
+    "venue": "Sardar Patel Stadium, Motera",
+    "umpire1": "HDPK Dharmasena",
+    "umpire2": "SJA Taufel",
+    "umpire3": ""
   },
   {
     "id": "196",
@@ -3914,10 +3914,10 @@
     "win_by_runs": "39",
     "win_by_wickets": "0",
     "player_of_match": "MK Tiwary",
-    "venue": "\"Punjab Cricket Association Stadium",
-    "umpire1": "Mohali\"",
-    "umpire2": "BR Doctrove",
-    "umpire3": "S Ravi"
+    "venue": "Punjab Cricket Association Stadium, Mohali",
+    "umpire1": "BR Doctrove",
+    "umpire2": "S Ravi",
+    "umpire3": ""
   },
   {
     "id": "197",
@@ -3954,10 +3954,10 @@
     "win_by_runs": "17",
     "win_by_wickets": "0",
     "player_of_match": "NV Ojha",
-    "venue": "\"Sardar Patel Stadium",
-    "umpire1": "Motera\"",
-    "umpire2": "SS Hazare",
-    "umpire3": "SJA Taufel"
+    "venue": "Sardar Patel Stadium, Motera",
+    "umpire1": "SS Hazare",
+    "umpire2": "SJA Taufel",
+    "umpire3": ""
   },
   {
     "id": "199",
@@ -4034,10 +4034,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "5",
     "player_of_match": "M Vijay",
-    "venue": "\"MA Chidambaram Stadium",
-    "umpire1": "Chepauk\"",
-    "umpire2": "BG Jerling",
-    "umpire3": "RE Koertzen"
+    "venue": "MA Chidambaram Stadium, Chepauk",
+    "umpire1": "BG Jerling",
+    "umpire2": "RE Koertzen",
+    "umpire3": ""
   },
   {
     "id": "203",
@@ -4094,10 +4094,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "6",
     "player_of_match": "KP Pietersen",
-    "venue": "\"Punjab Cricket Association Stadium",
-    "umpire1": "Mohali\"",
-    "umpire2": "BF Bowden",
-    "umpire3": "M Erasmus"
+    "venue": "Punjab Cricket Association Stadium, Mohali",
+    "umpire1": "BF Bowden",
+    "umpire2": "M Erasmus",
+    "umpire3": ""
   },
   {
     "id": "206",
@@ -4114,10 +4114,10 @@
     "win_by_runs": "23",
     "win_by_wickets": "0",
     "player_of_match": "M Vijay",
-    "venue": "\"MA Chidambaram Stadium",
-    "umpire1": "Chepauk\"",
-    "umpire2": "RE Koertzen",
-    "umpire3": "RB Tiffin"
+    "venue": "MA Chidambaram Stadium, Chepauk",
+    "umpire1": "RE Koertzen",
+    "umpire2": "RB Tiffin",
+    "umpire3": ""
   },
   {
     "id": "207",
@@ -4194,10 +4194,10 @@
     "win_by_runs": "2",
     "win_by_wickets": "0",
     "player_of_match": "SK Warne",
-    "venue": "\"Vidarbha Cricket Association Stadium",
-    "umpire1": "Jamtha\"",
-    "umpire2": "HDPK Dharmasena",
-    "umpire3": "SJA Taufel"
+    "venue": "Vidarbha Cricket Association Stadium, Jamtha",
+    "umpire1": "HDPK Dharmasena",
+    "umpire2": "SJA Taufel",
+    "umpire3": ""
   },
   {
     "id": "211",
@@ -4214,10 +4214,10 @@
     "win_by_runs": "24",
     "win_by_wickets": "0",
     "player_of_match": "SK Raina",
-    "venue": "\"MA Chidambaram Stadium",
-    "umpire1": "Chepauk\"",
-    "umpire2": "S Asnani",
-    "umpire3": "DJ Harper"
+    "venue": "MA Chidambaram Stadium, Chepauk",
+    "umpire1": "S Asnani",
+    "umpire2": "DJ Harper",
+    "umpire3": ""
   },
   {
     "id": "212",
@@ -4294,10 +4294,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "6",
     "player_of_match": "KC Sangakkara",
-    "venue": "\"Punjab Cricket Association Stadium",
-    "umpire1": "Mohali\"",
-    "umpire2": "M Erasmus",
-    "umpire3": "AM Saheba"
+    "venue": "Punjab Cricket Association Stadium, Mohali",
+    "umpire1": "M Erasmus",
+    "umpire2": "AM Saheba",
+    "umpire3": ""
   },
   {
     "id": "216",
@@ -4314,10 +4314,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "6",
     "player_of_match": "RJ Harris",
-    "venue": "\"Vidarbha Cricket Association Stadium",
-    "umpire1": "Jamtha\"",
-    "umpire2": "HDPK Dharmasena",
-    "umpire3": "SJA Taufel"
+    "venue": "Vidarbha Cricket Association Stadium, Jamtha",
+    "umpire1": "HDPK Dharmasena",
+    "umpire2": "SJA Taufel",
+    "umpire3": ""
   },
   {
     "id": "217",
@@ -4394,10 +4394,10 @@
     "win_by_runs": "13",
     "win_by_wickets": "0",
     "player_of_match": "Harmeet Singh",
-    "venue": "\"Vidarbha Cricket Association Stadium",
-    "umpire1": "Jamtha\"",
-    "umpire2": "RE Koertzen",
-    "umpire3": "RB Tiffin"
+    "venue": "Vidarbha Cricket Association Stadium, Jamtha",
+    "umpire1": "RE Koertzen",
+    "umpire2": "RB Tiffin",
+    "umpire3": ""
   },
   {
     "id": "221",
@@ -4434,10 +4434,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "9",
     "player_of_match": "R Ashwin",
-    "venue": "\"MA Chidambaram Stadium",
-    "umpire1": "Chepauk\"",
-    "umpire2": "SS Hazare",
-    "umpire3": "SJA Taufel"
+    "venue": "MA Chidambaram Stadium, Chepauk",
+    "umpire1": "SS Hazare",
+    "umpire2": "SJA Taufel",
+    "umpire3": ""
   },
   {
     "id": "223",
@@ -4474,10 +4474,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "6",
     "player_of_match": "G Gambhir",
-    "venue": "\"MA Chidambaram Stadium",
-    "umpire1": "Chepauk\"",
-    "umpire2": "HDPK Dharmasena",
-    "umpire3": "SS Hazare"
+    "venue": "MA Chidambaram Stadium, Chepauk",
+    "umpire1": "HDPK Dharmasena",
+    "umpire2": "SS Hazare",
+    "umpire3": ""
   },
   {
     "id": "225",
@@ -4694,10 +4694,10 @@
     "win_by_runs": "2",
     "win_by_wickets": "0",
     "player_of_match": "S Anirudha",
-    "venue": "\"MA Chidambaram Stadium",
-    "umpire1": "Chepauk\"",
-    "umpire2": "BR Doctrove",
-    "umpire3": "PR Reiffel"
+    "venue": "MA Chidambaram Stadium, Chepauk",
+    "umpire1": "BR Doctrove",
+    "umpire2": "PR Reiffel",
+    "umpire3": ""
   },
   {
     "id": "236",
@@ -4714,10 +4714,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "8",
     "player_of_match": "SK Trivedi",
-    "venue": "\"Rajiv Gandhi International Stadium",
-    "umpire1": "Uppal\"",
-    "umpire2": "RE Koertzen",
-    "umpire3": "SK Tarapore"
+    "venue": "Rajiv Gandhi International Stadium, Uppal",
+    "umpire1": "RE Koertzen",
+    "umpire2": "SK Tarapore",
+    "umpire3": ""
   },
   {
     "id": "237",
@@ -4854,10 +4854,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "6",
     "player_of_match": "PC Valthaty",
-    "venue": "\"Punjab Cricket Association Stadium",
-    "umpire1": "Mohali\"",
-    "umpire2": "Asad Rauf",
-    "umpire3": "SL Shastri"
+    "venue": "Punjab Cricket Association Stadium, Mohali",
+    "umpire1": "Asad Rauf",
+    "umpire2": "SL Shastri",
+    "umpire3": ""
   },
   {
     "id": "244",
@@ -4894,10 +4894,10 @@
     "win_by_runs": "33",
     "win_by_wickets": "0",
     "player_of_match": "DW Steyn",
-    "venue": "\"Rajiv Gandhi International Stadium",
-    "umpire1": "Uppal\"",
-    "umpire2": "RE Koertzen",
-    "umpire3": "S Ravi"
+    "venue": "Rajiv Gandhi International Stadium, Uppal",
+    "umpire1": "RE Koertzen",
+    "umpire2": "S Ravi",
+    "umpire3": ""
   },
   {
     "id": "246",
@@ -4954,10 +4954,10 @@
     "win_by_runs": "21",
     "win_by_wickets": "0",
     "player_of_match": "MEK Hussey",
-    "venue": "\"MA Chidambaram Stadium",
-    "umpire1": "Chepauk\"",
-    "umpire2": "HDPK Dharmasena",
-    "umpire3": "AL Hill"
+    "venue": "MA Chidambaram Stadium, Chepauk",
+    "umpire1": "HDPK Dharmasena",
+    "umpire2": "AL Hill",
+    "umpire3": ""
   },
   {
     "id": "249",
@@ -4974,10 +4974,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "8",
     "player_of_match": "PC Valthaty",
-    "venue": "\"Rajiv Gandhi International Stadium",
-    "umpire1": "Uppal\"",
-    "umpire2": "RE Koertzen",
-    "umpire3": "S Ravi"
+    "venue": "Rajiv Gandhi International Stadium, Uppal",
+    "umpire1": "RE Koertzen",
+    "umpire2": "S Ravi",
+    "umpire3": ""
   },
   {
     "id": "250",
@@ -5114,10 +5114,10 @@
     "win_by_runs": "48",
     "win_by_wickets": "0",
     "player_of_match": "SE Marsh",
-    "venue": "\"Punjab Cricket Association Stadium",
-    "umpire1": "Mohali\"",
-    "umpire2": "S Asnani",
-    "umpire3": "PR Reiffel"
+    "venue": "Punjab Cricket Association Stadium, Mohali",
+    "umpire1": "S Asnani",
+    "umpire2": "PR Reiffel",
+    "umpire3": ""
   },
   {
     "id": "257",
@@ -5194,10 +5194,10 @@
     "win_by_runs": "37",
     "win_by_wickets": "0",
     "player_of_match": "SL Malinga",
-    "venue": "\"Rajiv Gandhi International Stadium",
-    "umpire1": "Uppal\"",
-    "umpire2": "HDPK Dharmasena",
-    "umpire3": "AL Hill"
+    "venue": "Rajiv Gandhi International Stadium, Uppal",
+    "umpire1": "HDPK Dharmasena",
+    "umpire2": "AL Hill",
+    "umpire3": ""
   },
   {
     "id": "261",
@@ -5234,10 +5234,10 @@
     "win_by_runs": "25",
     "win_by_wickets": "0",
     "player_of_match": "MEK Hussey",
-    "venue": "\"MA Chidambaram Stadium",
-    "umpire1": "Chepauk\"",
-    "umpire2": "Aleem Dar",
-    "umpire3": "RB Tiffin"
+    "venue": "MA Chidambaram Stadium, Chepauk",
+    "umpire1": "Aleem Dar",
+    "umpire2": "RB Tiffin",
+    "umpire3": ""
   },
   {
     "id": "263",
@@ -5434,10 +5434,10 @@
     "win_by_runs": "19",
     "win_by_wickets": "0",
     "player_of_match": "JA Morkel",
-    "venue": "\"MA Chidambaram Stadium",
-    "umpire1": "Chepauk\"",
-    "umpire2": "Aleem Dar",
-    "umpire3": "RB Tiffin"
+    "venue": "MA Chidambaram Stadium, Chepauk",
+    "umpire1": "Aleem Dar",
+    "umpire2": "RB Tiffin",
+    "umpire3": ""
   },
   {
     "id": "273",
@@ -5494,10 +5494,10 @@
     "win_by_runs": "20",
     "win_by_wickets": "0",
     "player_of_match": "YK Pathan",
-    "venue": "\"Rajiv Gandhi International Stadium",
-    "umpire1": "Uppal\"",
-    "umpire2": "S Asnani",
-    "umpire3": "RJ Tucker"
+    "venue": "Rajiv Gandhi International Stadium, Uppal",
+    "umpire1": "S Asnani",
+    "umpire2": "RJ Tucker",
+    "umpire3": ""
   },
   {
     "id": "276",
@@ -5514,10 +5514,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "8",
     "player_of_match": "MEK Hussey",
-    "venue": "\"MA Chidambaram Stadium",
-    "umpire1": "Chepauk\"",
-    "umpire2": "SS Hazare",
-    "umpire3": "RB Tiffin"
+    "venue": "MA Chidambaram Stadium, Chepauk",
+    "umpire1": "SS Hazare",
+    "umpire2": "RB Tiffin",
+    "umpire3": ""
   },
   {
     "id": "277",
@@ -5574,10 +5574,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "4",
     "player_of_match": "V Sehwag",
-    "venue": "\"Rajiv Gandhi International Stadium",
-    "umpire1": "Uppal\"",
-    "umpire2": "Asad Rauf",
-    "umpire3": "AM Saheba"
+    "venue": "Rajiv Gandhi International Stadium, Uppal",
+    "umpire1": "Asad Rauf",
+    "umpire2": "AM Saheba",
+    "umpire3": ""
   },
   {
     "id": "280",
@@ -5674,10 +5674,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "5",
     "player_of_match": "R Sharma",
-    "venue": "\"Punjab Cricket Association Stadium",
-    "umpire1": "Mohali\"",
-    "umpire2": "SK Tarapore",
-    "umpire3": "RJ Tucker"
+    "venue": "Punjab Cricket Association Stadium, Mohali",
+    "umpire1": "SK Tarapore",
+    "umpire2": "RJ Tucker",
+    "umpire3": ""
   },
   {
     "id": "285",
@@ -5714,10 +5714,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "6",
     "player_of_match": "MR Marsh",
-    "venue": "\"Rajiv Gandhi International Stadium",
-    "umpire1": "Uppal\"",
-    "umpire2": "Asad Rauf",
-    "umpire3": "AM Saheba"
+    "venue": "Rajiv Gandhi International Stadium, Uppal",
+    "umpire1": "Asad Rauf",
+    "umpire2": "AM Saheba",
+    "umpire3": ""
   },
   {
     "id": "287",
@@ -5734,10 +5734,10 @@
     "win_by_runs": "76",
     "win_by_wickets": "0",
     "player_of_match": "BA Bhatt",
-    "venue": "\"Punjab Cricket Association Stadium",
-    "umpire1": "Mohali\"",
-    "umpire2": "SK Tarapore",
-    "umpire3": "RJ Tucker"
+    "venue": "Punjab Cricket Association Stadium, Mohali",
+    "umpire1": "SK Tarapore",
+    "umpire2": "RJ Tucker",
+    "umpire3": ""
   },
   {
     "id": "288",
@@ -5774,10 +5774,10 @@
     "win_by_runs": "18",
     "win_by_wickets": "0",
     "player_of_match": "MS Dhoni",
-    "venue": "\"MA Chidambaram Stadium",
-    "umpire1": "Chepauk\"",
-    "umpire2": "AM Saheba",
-    "umpire3": "SL Shastri"
+    "venue": "MA Chidambaram Stadium, Chepauk",
+    "umpire1": "AM Saheba",
+    "umpire2": "SL Shastri",
+    "umpire3": ""
   },
   {
     "id": "290",
@@ -5934,10 +5934,10 @@
     "win_by_runs": "11",
     "win_by_wickets": "0",
     "player_of_match": "WP Saha",
-    "venue": "\"MA Chidambaram Stadium",
-    "umpire1": "Chepauk\"",
-    "umpire2": "HDPK Dharmasena",
-    "umpire3": "RE Koertzen"
+    "venue": "MA Chidambaram Stadium, Chepauk",
+    "umpire1": "HDPK Dharmasena",
+    "umpire2": "RE Koertzen",
+    "umpire3": ""
   },
   {
     "id": "298",
@@ -6114,10 +6114,10 @@
     "win_by_runs": "43",
     "win_by_wickets": "0",
     "player_of_match": "CH Gayle",
-    "venue": "\"MA Chidambaram Stadium",
-    "umpire1": "Chepauk\"",
-    "umpire2": "Asad Rauf",
-    "umpire3": "SJA Taufel"
+    "venue": "MA Chidambaram Stadium, Chepauk",
+    "umpire1": "Asad Rauf",
+    "umpire2": "SJA Taufel",
+    "umpire3": ""
   },
   {
     "id": "307",
@@ -6134,10 +6134,10 @@
     "win_by_runs": "58",
     "win_by_wickets": "0",
     "player_of_match": "M Vijay",
-    "venue": "\"MA Chidambaram Stadium",
-    "umpire1": "Chepauk\"",
-    "umpire2": "Asad Rauf",
-    "umpire3": "SJA Taufel"
+    "venue": "MA Chidambaram Stadium, Chepauk",
+    "umpire1": "Asad Rauf",
+    "umpire2": "SJA Taufel",
+    "umpire3": ""
   },
   {
     "id": "308",
@@ -6154,10 +6154,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "8",
     "player_of_match": "RE Levi",
-    "venue": "\"MA Chidambaram Stadium",
-    "umpire1": "Chepauk\"",
-    "umpire2": "JD Cloete",
-    "umpire3": "SJA Taufel"
+    "venue": "MA Chidambaram Stadium, Chepauk",
+    "umpire1": "JD Cloete",
+    "umpire2": "SJA Taufel",
+    "umpire3": ""
   },
   {
     "id": "309",
@@ -6394,10 +6394,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "5",
     "player_of_match": "F du Plessis",
-    "venue": "\"MA Chidambaram Stadium",
-    "umpire1": "Chepauk\"",
-    "umpire2": "HDPK Dharmasena",
-    "umpire3": "RJ Tucker"
+    "venue": "MA Chidambaram Stadium, Chepauk",
+    "umpire1": "HDPK Dharmasena",
+    "umpire2": "RJ Tucker",
+    "umpire3": ""
   },
   {
     "id": "321",
@@ -6414,10 +6414,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "7",
     "player_of_match": "AD Mascarenhas",
-    "venue": "\"Punjab Cricket Association Stadium",
-    "umpire1": "Mohali\"",
-    "umpire2": "VA Kulkarni",
-    "umpire3": "SK Tarapore"
+    "venue": "Punjab Cricket Association Stadium, Mohali",
+    "umpire1": "VA Kulkarni",
+    "umpire2": "SK Tarapore",
+    "umpire3": ""
   },
   {
     "id": "322",
@@ -6594,10 +6594,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "8",
     "player_of_match": "G Gambhir",
-    "venue": "\"Punjab Cricket Association Stadium",
-    "umpire1": "Mohali\"",
-    "umpire2": "JD Cloete",
-    "umpire3": "RJ Tucker"
+    "venue": "Punjab Cricket Association Stadium, Mohali",
+    "umpire1": "JD Cloete",
+    "umpire2": "RJ Tucker",
+    "umpire3": ""
   },
   {
     "id": "331",
@@ -6614,10 +6614,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "9",
     "player_of_match": "DA Warner",
-    "venue": "\"Rajiv Gandhi International Stadium",
-    "umpire1": "Uppal\"",
-    "umpire2": "JD Cloete",
-    "umpire3": "SJA Taufel"
+    "venue": "Rajiv Gandhi International Stadium, Uppal",
+    "umpire1": "JD Cloete",
+    "umpire2": "SJA Taufel",
+    "umpire3": ""
   },
   {
     "id": "332",
@@ -6634,10 +6634,10 @@
     "win_by_runs": "13",
     "win_by_wickets": "0",
     "player_of_match": "KMDN Kulasekara",
-    "venue": "\"MA Chidambaram Stadium",
-    "umpire1": "Chepauk\"",
-    "umpire2": "Asad Rauf",
-    "umpire3": "S Das"
+    "venue": "MA Chidambaram Stadium, Chepauk",
+    "umpire1": "Asad Rauf",
+    "umpire2": "S Das",
+    "umpire3": ""
   },
   {
     "id": "333",
@@ -6654,10 +6654,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "5",
     "player_of_match": "CH Gayle",
-    "venue": "\"Punjab Cricket Association Stadium",
-    "umpire1": "Mohali\"",
-    "umpire2": "S Ravi",
-    "umpire3": "RJ Tucker"
+    "venue": "Punjab Cricket Association Stadium, Mohali",
+    "umpire1": "S Ravi",
+    "umpire2": "RJ Tucker",
+    "umpire3": ""
   },
   {
     "id": "334",
@@ -6674,10 +6674,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "7",
     "player_of_match": "F du Plessis",
-    "venue": "\"MA Chidambaram Stadium",
-    "umpire1": "Chepauk\"",
-    "umpire2": "Aleem Dar",
-    "umpire3": "BNJ Oxenford"
+    "venue": "MA Chidambaram Stadium, Chepauk",
+    "umpire1": "Aleem Dar",
+    "umpire2": "BNJ Oxenford",
+    "umpire3": ""
   },
   {
     "id": "335",
@@ -6794,10 +6794,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "4",
     "player_of_match": "AT Rayudu",
-    "venue": "\"Punjab Cricket Association Stadium",
-    "umpire1": "Mohali\"",
-    "umpire2": "Aleem Dar",
-    "umpire3": "BNJ Oxenford"
+    "venue": "Punjab Cricket Association Stadium, Mohali",
+    "umpire1": "Aleem Dar",
+    "umpire2": "BNJ Oxenford",
+    "umpire3": ""
   },
   {
     "id": "341",
@@ -6854,10 +6854,10 @@
     "win_by_runs": "7",
     "win_by_wickets": "0",
     "player_of_match": "Mandeep Singh",
-    "venue": "\"MA Chidambaram Stadium",
-    "umpire1": "Chepauk\"",
-    "umpire2": "BF Bowden",
-    "umpire3": "SK Tarapore"
+    "venue": "MA Chidambaram Stadium, Chepauk",
+    "umpire1": "BF Bowden",
+    "umpire2": "SK Tarapore",
+    "umpire3": ""
   },
   {
     "id": "344",
@@ -6934,10 +6934,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "5",
     "player_of_match": "G Gambhir",
-    "venue": "\"MA Chidambaram Stadium",
-    "umpire1": "Chepauk\"",
-    "umpire2": "BF Bowden",
-    "umpire3": "C Shamshuddin"
+    "venue": "MA Chidambaram Stadium, Chepauk",
+    "umpire1": "BF Bowden",
+    "umpire2": "C Shamshuddin",
+    "umpire3": ""
   },
   {
     "id": "348",
@@ -7034,10 +7034,10 @@
     "win_by_runs": "10",
     "win_by_wickets": "0",
     "player_of_match": "SK Raina",
-    "venue": "\"MA Chidambaram Stadium",
-    "umpire1": "Chepauk\"",
-    "umpire2": "HDPK Dharmasena",
-    "umpire3": "BNJ Oxenford"
+    "venue": "MA Chidambaram Stadium, Chepauk",
+    "umpire1": "HDPK Dharmasena",
+    "umpire2": "BNJ Oxenford",
+    "umpire3": ""
   },
   {
     "id": "353",
@@ -7074,10 +7074,10 @@
     "win_by_runs": "43",
     "win_by_wickets": "0",
     "player_of_match": "SR Watson",
-    "venue": "\"Punjab Cricket Association Stadium",
-    "umpire1": "Mohali\"",
-    "umpire2": "JD Cloete",
-    "umpire3": "SJA Taufel"
+    "venue": "Punjab Cricket Association Stadium, Mohali",
+    "umpire1": "JD Cloete",
+    "umpire2": "SJA Taufel",
+    "umpire3": ""
   },
   {
     "id": "355",
@@ -7174,10 +7174,10 @@
     "win_by_runs": "25",
     "win_by_wickets": "0",
     "player_of_match": "Mandeep Singh",
-    "venue": "\"Rajiv Gandhi International Stadium",
-    "umpire1": "Uppal\"",
-    "umpire2": "HDPK Dharmasena",
-    "umpire3": "BNJ Oxenford"
+    "venue": "Rajiv Gandhi International Stadium, Uppal",
+    "umpire1": "HDPK Dharmasena",
+    "umpire2": "BNJ Oxenford",
+    "umpire3": ""
   },
   {
     "id": "360",
@@ -7274,10 +7274,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "9",
     "player_of_match": "BW Hilfenhaus",
-    "venue": "\"MA Chidambaram Stadium",
-    "umpire1": "Chepauk\"",
-    "umpire2": "S Das",
-    "umpire3": "BR Doctrove"
+    "venue": "MA Chidambaram Stadium, Chepauk",
+    "umpire1": "S Das",
+    "umpire2": "BR Doctrove",
+    "umpire3": ""
   },
   {
     "id": "365",
@@ -7314,10 +7314,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "4",
     "player_of_match": "DJ Hussey",
-    "venue": "\"Punjab Cricket Association Stadium",
-    "umpire1": "Mohali\"",
-    "umpire2": "HDPK Dharmasena",
-    "umpire3": "BNJ Oxenford"
+    "venue": "Punjab Cricket Association Stadium, Mohali",
+    "umpire1": "HDPK Dharmasena",
+    "umpire2": "BNJ Oxenford",
+    "umpire3": ""
   },
   {
     "id": "367",
@@ -7454,10 +7454,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "5",
     "player_of_match": "DW Steyn",
-    "venue": "\"Rajiv Gandhi International Stadium",
-    "umpire1": "Uppal\"",
-    "umpire2": "S Ravi",
-    "umpire3": "SJA Taufel"
+    "venue": "Rajiv Gandhi International Stadium, Uppal",
+    "umpire1": "S Ravi",
+    "umpire2": "SJA Taufel",
+    "umpire3": ""
   },
   {
     "id": "374",
@@ -7514,10 +7514,10 @@
     "win_by_runs": "9",
     "win_by_wickets": "0",
     "player_of_match": "DW Steyn",
-    "venue": "\"Rajiv Gandhi International Stadium",
-    "umpire1": "Uppal\"",
-    "umpire2": "S Ravi",
-    "umpire3": "SJA Taufel"
+    "venue": "Rajiv Gandhi International Stadium, Uppal",
+    "umpire1": "S Ravi",
+    "umpire2": "SJA Taufel",
+    "umpire3": ""
   },
   {
     "id": "377",
@@ -7594,10 +7594,10 @@
     "win_by_runs": "86",
     "win_by_wickets": "0",
     "player_of_match": "M Vijay",
-    "venue": "\"MA Chidambaram Stadium",
-    "umpire1": "Chepauk\"",
-    "umpire2": "BR Doctrove",
-    "umpire3": "SJA Taufel"
+    "venue": "MA Chidambaram Stadium, Chepauk",
+    "umpire1": "BR Doctrove",
+    "umpire2": "SJA Taufel",
+    "umpire3": ""
   },
   {
     "id": "381",
@@ -7614,10 +7614,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "5",
     "player_of_match": "MS Bisla",
-    "venue": "\"MA Chidambaram Stadium",
-    "umpire1": "Chepauk\"",
-    "umpire2": "BF Bowden",
-    "umpire3": "SJA Taufel"
+    "venue": "MA Chidambaram Stadium, Chepauk",
+    "umpire1": "BF Bowden",
+    "umpire2": "SJA Taufel",
+    "umpire3": ""
   },
   {
     "id": "382",
@@ -7674,10 +7674,10 @@
     "win_by_runs": "22",
     "win_by_wickets": "0",
     "player_of_match": "A Mishra",
-    "venue": "\"Rajiv Gandhi International Stadium",
-    "umpire1": "Uppal\"",
-    "umpire2": "S Ravi",
-    "umpire3": "SJA Taufel"
+    "venue": "Rajiv Gandhi International Stadium, Uppal",
+    "umpire1": "S Ravi",
+    "umpire2": "SJA Taufel",
+    "umpire3": ""
   },
   {
     "id": "385",
@@ -7714,10 +7714,10 @@
     "win_by_runs": "9",
     "win_by_wickets": "0",
     "player_of_match": "KA Pollard",
-    "venue": "\"MA Chidambaram Stadium",
-    "umpire1": "Chepauk\"",
-    "umpire2": "M Erasmus",
-    "umpire3": "VA Kulkarni"
+    "venue": "MA Chidambaram Stadium, Chepauk",
+    "umpire1": "M Erasmus",
+    "umpire2": "VA Kulkarni",
+    "umpire3": ""
   },
   {
     "id": "387",
@@ -7754,10 +7754,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "0",
     "player_of_match": "GH Vihari",
-    "venue": "\"Rajiv Gandhi International Stadium",
-    "umpire1": "Uppal\"",
-    "umpire2": "AK Chaudhary",
-    "umpire3": "S Ravi"
+    "venue": "Rajiv Gandhi International Stadium, Uppal",
+    "umpire1": "AK Chaudhary",
+    "umpire2": "S Ravi",
+    "umpire3": ""
   },
   {
     "id": "389",
@@ -7814,10 +7814,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "10",
     "player_of_match": "MEK Hussey",
-    "venue": "\"Punjab Cricket Association Stadium",
-    "umpire1": "Mohali\"",
-    "umpire2": "Aleem Dar",
-    "umpire3": "C Shamshuddin"
+    "venue": "Punjab Cricket Association Stadium, Mohali",
+    "umpire1": "Aleem Dar",
+    "umpire2": "C Shamshuddin",
+    "umpire3": ""
   },
   {
     "id": "392",
@@ -7914,10 +7914,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "4",
     "player_of_match": "RA Jadeja",
-    "venue": "\"MA Chidambaram Stadium",
-    "umpire1": "Chepauk\"",
-    "umpire2": "Asad Rauf",
-    "umpire3": "AK Chaudhary"
+    "venue": "MA Chidambaram Stadium, Chepauk",
+    "umpire1": "Asad Rauf",
+    "umpire2": "AK Chaudhary",
+    "umpire3": ""
   },
   {
     "id": "397",
@@ -7974,10 +7974,10 @@
     "win_by_runs": "24",
     "win_by_wickets": "0",
     "player_of_match": "SPD Smith",
-    "venue": "\"MA Chidambaram Stadium",
-    "umpire1": "Chepauk\"",
-    "umpire2": "Asad Rauf",
-    "umpire3": "AK Chaudhary"
+    "venue": "MA Chidambaram Stadium, Chepauk",
+    "umpire1": "Asad Rauf",
+    "umpire2": "AK Chaudhary",
+    "umpire3": ""
   },
   {
     "id": "400",
@@ -7994,10 +7994,10 @@
     "win_by_runs": "4",
     "win_by_wickets": "0",
     "player_of_match": "MS Gony",
-    "venue": "\"Punjab Cricket Association Stadium",
-    "umpire1": "Mohali\"",
-    "umpire2": "CK Nandan",
-    "umpire3": "SJA Taufel"
+    "venue": "Punjab Cricket Association Stadium, Mohali",
+    "umpire1": "CK Nandan",
+    "umpire2": "SJA Taufel",
+    "umpire3": ""
   },
   {
     "id": "401",
@@ -8094,10 +8094,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "5",
     "player_of_match": "GH Vihari",
-    "venue": "\"Rajiv Gandhi International Stadium",
-    "umpire1": "Uppal\"",
-    "umpire2": "HDPK Dharmasena",
-    "umpire3": "CK Nandan"
+    "venue": "Rajiv Gandhi International Stadium, Uppal",
+    "umpire1": "HDPK Dharmasena",
+    "umpire2": "CK Nandan",
+    "umpire3": ""
   },
   {
     "id": "406",
@@ -8174,10 +8174,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "7",
     "player_of_match": "DA Miller",
-    "venue": "\"Punjab Cricket Association Stadium",
-    "umpire1": "Mohali\"",
-    "umpire2": "M Erasmus",
-    "umpire3": "K Srinath"
+    "venue": "Punjab Cricket Association Stadium, Mohali",
+    "umpire1": "M Erasmus",
+    "umpire2": "K Srinath",
+    "umpire3": ""
   },
   {
     "id": "410",
@@ -8194,10 +8194,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "5",
     "player_of_match": "MEK Hussey",
-    "venue": "\"MA Chidambaram Stadium",
-    "umpire1": "Chepauk\"",
-    "umpire2": "S Asnani",
-    "umpire3": "AK Chaudhary"
+    "venue": "MA Chidambaram Stadium, Chepauk",
+    "umpire1": "S Asnani",
+    "umpire2": "AK Chaudhary",
+    "umpire3": ""
   },
   {
     "id": "411",
@@ -8274,10 +8274,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "5",
     "player_of_match": "MS Dhoni",
-    "venue": "\"MA Chidambaram Stadium",
-    "umpire1": "Chepauk\"",
-    "umpire2": "Aleem Dar",
-    "umpire3": "S Das"
+    "venue": "MA Chidambaram Stadium, Chepauk",
+    "umpire1": "Aleem Dar",
+    "umpire2": "S Das",
+    "umpire3": ""
   },
   {
     "id": "415",
@@ -8354,10 +8354,10 @@
     "win_by_runs": "14",
     "win_by_wickets": "0",
     "player_of_match": "MEK Hussey",
-    "venue": "\"MA Chidambaram Stadium",
-    "umpire1": "Chepauk\"",
-    "umpire2": "Aleem Dar",
-    "umpire3": "SJA Taufel"
+    "venue": "MA Chidambaram Stadium, Chepauk",
+    "umpire1": "Aleem Dar",
+    "umpire2": "SJA Taufel",
+    "umpire3": ""
   },
   {
     "id": "419",
@@ -8454,10 +8454,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "7",
     "player_of_match": "I Sharma",
-    "venue": "\"Rajiv Gandhi International Stadium",
-    "umpire1": "Uppal\"",
-    "umpire2": "Asad Rauf",
-    "umpire3": "S Asnani"
+    "venue": "Rajiv Gandhi International Stadium, Uppal",
+    "umpire1": "Asad Rauf",
+    "umpire2": "S Asnani",
+    "umpire3": ""
   },
   {
     "id": "424",
@@ -8494,10 +8494,10 @@
     "win_by_runs": "15",
     "win_by_wickets": "0",
     "player_of_match": "SK Raina",
-    "venue": "\"MA Chidambaram Stadium",
-    "umpire1": "Chepauk\"",
-    "umpire2": "M Erasmus",
-    "umpire3": "VA Kulkarni"
+    "venue": "MA Chidambaram Stadium, Chepauk",
+    "umpire1": "M Erasmus",
+    "umpire2": "VA Kulkarni",
+    "umpire3": ""
   },
   {
     "id": "426",
@@ -8554,10 +8554,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "6",
     "player_of_match": "DJG Sammy",
-    "venue": "\"Rajiv Gandhi International Stadium",
-    "umpire1": "Uppal\"",
-    "umpire2": "Asad Rauf",
-    "umpire3": "S Asnani"
+    "venue": "Rajiv Gandhi International Stadium, Uppal",
+    "umpire1": "Asad Rauf",
+    "umpire2": "S Asnani",
+    "umpire3": ""
   },
   {
     "id": "429",
@@ -8694,10 +8694,10 @@
     "win_by_runs": "77",
     "win_by_wickets": "0",
     "player_of_match": "SK Raina",
-    "venue": "\"Rajiv Gandhi International Stadium",
-    "umpire1": "Uppal\"",
-    "umpire2": "S Das",
-    "umpire3": "NJ Llong"
+    "venue": "Rajiv Gandhi International Stadium, Uppal",
+    "umpire1": "S Das",
+    "umpire2": "NJ Llong",
+    "umpire3": ""
   },
   {
     "id": "436",
@@ -8714,10 +8714,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "8",
     "player_of_match": "KK Cooper",
-    "venue": "\"Punjab Cricket Association Stadium",
-    "umpire1": "Mohali\"",
-    "umpire2": "HDPK Dharmasena",
-    "umpire3": "S Ravi"
+    "venue": "Punjab Cricket Association Stadium, Mohali",
+    "umpire1": "HDPK Dharmasena",
+    "umpire2": "S Ravi",
+    "umpire3": ""
   },
   {
     "id": "437",
@@ -8794,10 +8794,10 @@
     "win_by_runs": "30",
     "win_by_wickets": "0",
     "player_of_match": "PA Patel",
-    "venue": "\"Punjab Cricket Association Stadium",
-    "umpire1": "Mohali\"",
-    "umpire2": "S Das",
-    "umpire3": "RJ Tucker"
+    "venue": "Punjab Cricket Association Stadium, Mohali",
+    "umpire1": "S Das",
+    "umpire2": "RJ Tucker",
+    "umpire3": ""
   },
   {
     "id": "441",
@@ -8914,10 +8914,10 @@
     "win_by_runs": "33",
     "win_by_wickets": "0",
     "player_of_match": "MS Dhoni",
-    "venue": "\"MA Chidambaram Stadium",
-    "umpire1": "Chepauk\"",
-    "umpire2": "C Shamshuddin",
-    "umpire3": "RJ Tucker"
+    "venue": "MA Chidambaram Stadium, Chepauk",
+    "umpire1": "C Shamshuddin",
+    "umpire2": "RJ Tucker",
+    "umpire3": ""
   },
   {
     "id": "447",
@@ -8954,10 +8954,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "6",
     "player_of_match": "DA Miller",
-    "venue": "\"Punjab Cricket Association Stadium",
-    "umpire1": "Mohali\"",
-    "umpire2": "VA Kulkarni",
-    "umpire3": "NJ Llong"
+    "venue": "Punjab Cricket Association Stadium, Mohali",
+    "umpire1": "VA Kulkarni",
+    "umpire2": "NJ Llong",
+    "umpire3": ""
   },
   {
     "id": "449",
@@ -8974,10 +8974,10 @@
     "win_by_runs": "23",
     "win_by_wickets": "0",
     "player_of_match": "A Mishra",
-    "venue": "\"Rajiv Gandhi International Stadium",
-    "umpire1": "Uppal\"",
-    "umpire2": "Asad Rauf",
-    "umpire3": "AK Chaudhary"
+    "venue": "Rajiv Gandhi International Stadium, Uppal",
+    "umpire1": "Asad Rauf",
+    "umpire2": "AK Chaudhary",
+    "umpire3": ""
   },
   {
     "id": "450",
@@ -9054,10 +9054,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "5",
     "player_of_match": "PA Patel",
-    "venue": "\"Rajiv Gandhi International Stadium",
-    "umpire1": "Uppal\"",
-    "umpire2": "Asad Rauf",
-    "umpire3": "S Asnani"
+    "venue": "Rajiv Gandhi International Stadium, Uppal",
+    "umpire1": "Asad Rauf",
+    "umpire2": "S Asnani",
+    "umpire3": ""
   },
   {
     "id": "454",
@@ -9634,10 +9634,10 @@
     "win_by_runs": "10",
     "win_by_wickets": "0",
     "player_of_match": "PV Tambe",
-    "venue": "\"Sardar Patel Stadium",
-    "umpire1": "Motera\"",
-    "umpire2": "NJ Llong",
-    "umpire3": "CK Nandan"
+    "venue": "Sardar Patel Stadium, Motera",
+    "umpire1": "NJ Llong",
+    "umpire2": "CK Nandan",
+    "umpire3": ""
   },
   {
     "id": "483",
@@ -9734,10 +9734,10 @@
     "win_by_runs": "32",
     "win_by_wickets": "0",
     "player_of_match": "B Kumar",
-    "venue": "\"Sardar Patel Stadium",
-    "umpire1": "Motera\"",
-    "umpire2": "AK Chaudhary",
-    "umpire3": "NJ Llong"
+    "venue": "Sardar Patel Stadium, Motera",
+    "umpire1": "AK Chaudhary",
+    "umpire2": "NJ Llong",
+    "umpire3": ""
   },
   {
     "id": "488",
@@ -9854,10 +9854,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "7",
     "player_of_match": "AT Rayudu",
-    "venue": "\"Rajiv Gandhi International Stadium",
-    "umpire1": "Uppal\"",
-    "umpire2": "HDPK Dharmasena",
-    "umpire3": "VA Kulkarni"
+    "venue": "Rajiv Gandhi International Stadium, Uppal",
+    "umpire1": "HDPK Dharmasena",
+    "umpire2": "VA Kulkarni",
+    "umpire3": ""
   },
   {
     "id": "494",
@@ -9914,10 +9914,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "6",
     "player_of_match": "WP Saha",
-    "venue": "\"Rajiv Gandhi International Stadium",
-    "umpire1": "Uppal\"",
-    "umpire2": "VA Kulkarni",
-    "umpire3": "PG Pathak"
+    "venue": "Rajiv Gandhi International Stadium, Uppal",
+    "umpire1": "VA Kulkarni",
+    "umpire2": "PG Pathak",
+    "umpire3": ""
   },
   {
     "id": "497",
@@ -9954,10 +9954,10 @@
     "win_by_runs": "62",
     "win_by_wickets": "0",
     "player_of_match": "AM Rahane",
-    "venue": "\"Sardar Patel Stadium",
-    "umpire1": "Motera\"",
-    "umpire2": "S Ravi",
-    "umpire3": "RJ Tucker"
+    "venue": "Sardar Patel Stadium, Motera",
+    "umpire1": "S Ravi",
+    "umpire2": "RJ Tucker",
+    "umpire3": ""
   },
   {
     "id": "499",
@@ -9994,10 +9994,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "7",
     "player_of_match": "UT Yadav",
-    "venue": "\"Rajiv Gandhi International Stadium",
-    "umpire1": "Uppal\"",
-    "umpire2": "NJ Llong",
-    "umpire3": "CK Nandan"
+    "venue": "Rajiv Gandhi International Stadium, Uppal",
+    "umpire1": "NJ Llong",
+    "umpire2": "CK Nandan",
+    "umpire3": ""
   },
   {
     "id": "501",
@@ -10014,10 +10014,10 @@
     "win_by_runs": "25",
     "win_by_wickets": "0",
     "player_of_match": "MEK Hussey",
-    "venue": "\"Sardar Patel Stadium",
-    "umpire1": "Motera\"",
-    "umpire2": "S Ravi",
-    "umpire3": "RJ Tucker"
+    "venue": "Sardar Patel Stadium, Motera",
+    "umpire1": "S Ravi",
+    "umpire2": "RJ Tucker",
+    "umpire3": ""
   },
   {
     "id": "502",
@@ -10054,10 +10054,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "7",
     "player_of_match": "DA Warner",
-    "venue": "\"Rajiv Gandhi International Stadium",
-    "umpire1": "Uppal\"",
-    "umpire2": "AK Chaudhary",
-    "umpire3": "NJ Llong"
+    "venue": "Rajiv Gandhi International Stadium, Uppal",
+    "umpire1": "AK Chaudhary",
+    "umpire2": "NJ Llong",
+    "umpire3": ""
   },
   {
     "id": "504",
@@ -10094,10 +10094,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "7",
     "player_of_match": "LMP Simmons",
-    "venue": "\"Punjab Cricket Association Stadium",
-    "umpire1": "Mohali\"",
-    "umpire2": "HDPK Dharmasena",
-    "umpire3": "VA Kulkarni"
+    "venue": "Punjab Cricket Association Stadium, Mohali",
+    "umpire1": "HDPK Dharmasena",
+    "umpire2": "VA Kulkarni",
+    "umpire3": ""
   },
   {
     "id": "506",
@@ -10174,10 +10174,10 @@
     "win_by_runs": "16",
     "win_by_wickets": "0",
     "player_of_match": "SE Marsh",
-    "venue": "\"Punjab Cricket Association Stadium",
-    "umpire1": "Mohali\"",
-    "umpire2": "HDPK Dharmasena",
-    "umpire3": "PG Pathak"
+    "venue": "Punjab Cricket Association Stadium, Mohali",
+    "umpire1": "HDPK Dharmasena",
+    "umpire2": "PG Pathak",
+    "umpire3": ""
   },
   {
     "id": "510",
@@ -10234,10 +10234,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "7",
     "player_of_match": "M Vohra",
-    "venue": "\"Punjab Cricket Association Stadium",
-    "umpire1": "Mohali\"",
-    "umpire2": "HDPK Dharmasena",
-    "umpire3": "VA Kulkarni"
+    "venue": "Punjab Cricket Association Stadium, Mohali",
+    "umpire1": "HDPK Dharmasena",
+    "umpire2": "VA Kulkarni",
+    "umpire3": ""
   },
   {
     "id": "513",
@@ -10374,10 +10374,10 @@
     "win_by_runs": "1",
     "win_by_wickets": "0",
     "player_of_match": "A Nehra",
-    "venue": "\"MA Chidambaram Stadium",
-    "umpire1": "Chepauk\"",
-    "umpire2": "RK Illingworth",
-    "umpire3": "VA Kulkarni"
+    "venue": "MA Chidambaram Stadium, Chepauk",
+    "umpire1": "RK Illingworth",
+    "umpire2": "VA Kulkarni",
+    "umpire3": ""
   },
   {
     "id": "520",
@@ -10414,10 +10414,10 @@
     "win_by_runs": "45",
     "win_by_wickets": "0",
     "player_of_match": "BB McCullum",
-    "venue": "\"MA Chidambaram Stadium",
-    "umpire1": "Chepauk\"",
-    "umpire2": "RK Illingworth",
-    "umpire3": "VA Kulkarni"
+    "venue": "MA Chidambaram Stadium, Chepauk",
+    "umpire1": "RK Illingworth",
+    "umpire2": "VA Kulkarni",
+    "umpire3": ""
   },
   {
     "id": "522",
@@ -10514,10 +10514,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "7",
     "player_of_match": "SPD Smith",
-    "venue": "\"Sardar Patel Stadium",
-    "umpire1": "Motera\"",
-    "umpire2": "AK Chaudhary",
-    "umpire3": "SD Fry"
+    "venue": "Sardar Patel Stadium, Motera",
+    "umpire1": "AK Chaudhary",
+    "umpire2": "SD Fry",
+    "umpire3": ""
   },
   {
     "id": "527",
@@ -10654,10 +10654,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "8",
     "player_of_match": "AM Rahane",
-    "venue": "\"Sardar Patel Stadium",
-    "umpire1": "Motera\"",
-    "umpire2": "AK Chaudhary",
-    "umpire3": "M Erasmus"
+    "venue": "Sardar Patel Stadium, Motera",
+    "umpire1": "AK Chaudhary",
+    "umpire2": "M Erasmus",
+    "umpire3": ""
   },
   {
     "id": "534",
@@ -10714,10 +10714,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "0",
     "player_of_match": "SE Marsh",
-    "venue": "\"Sardar Patel Stadium",
-    "umpire1": "Motera\"",
-    "umpire2": "M Erasmus",
-    "umpire3": "S Ravi"
+    "venue": "Sardar Patel Stadium, Motera",
+    "umpire1": "M Erasmus",
+    "umpire2": "S Ravi",
+    "umpire3": ""
   },
   {
     "id": "537",
@@ -10794,10 +10794,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "9",
     "player_of_match": "MA Starc",
-    "venue": "\"Sardar Patel Stadium",
-    "umpire1": "Motera\"",
-    "umpire2": "M Erasmus",
-    "umpire3": "S Ravi"
+    "venue": "Sardar Patel Stadium, Motera",
+    "umpire1": "M Erasmus",
+    "umpire2": "S Ravi",
+    "umpire3": ""
   },
   {
     "id": "541",
@@ -10834,10 +10834,10 @@
     "win_by_runs": "97",
     "win_by_wickets": "0",
     "player_of_match": "BB McCullum",
-    "venue": "\"MA Chidambaram Stadium",
-    "umpire1": "Chepauk\"",
-    "umpire2": "JD Cloete",
-    "umpire3": "C Shamshuddin"
+    "venue": "MA Chidambaram Stadium, Chepauk",
+    "umpire1": "JD Cloete",
+    "umpire2": "C Shamshuddin",
+    "umpire3": ""
   },
   {
     "id": "543",
@@ -10874,10 +10874,10 @@
     "win_by_runs": "20",
     "win_by_wickets": "0",
     "player_of_match": "TA Boult",
-    "venue": "\"Punjab Cricket Association Stadium",
-    "umpire1": "Mohali\"",
-    "umpire2": "HDPK Dharmasena",
-    "umpire3": "CB Gaffaney"
+    "venue": "Punjab Cricket Association Stadium, Mohali",
+    "umpire1": "HDPK Dharmasena",
+    "umpire2": "CB Gaffaney",
+    "umpire3": ""
   },
   {
     "id": "545",
@@ -10934,10 +10934,10 @@
     "win_by_runs": "2",
     "win_by_wickets": "0",
     "player_of_match": "DJ Bravo",
-    "venue": "\"MA Chidambaram Stadium",
-    "umpire1": "Chepauk\"",
-    "umpire2": "RM Deshpande",
-    "umpire3": "VA Kulkarni"
+    "venue": "MA Chidambaram Stadium, Chepauk",
+    "umpire1": "RM Deshpande",
+    "umpire2": "VA Kulkarni",
+    "umpire3": ""
   },
   {
     "id": "548",
@@ -11014,10 +11014,10 @@
     "win_by_runs": "22",
     "win_by_wickets": "0",
     "player_of_match": "DA Warner",
-    "venue": "\"Rajiv Gandhi International Stadium",
-    "umpire1": "Uppal\"",
-    "umpire2": "AK Chaudhary",
-    "umpire3": "K Srinivasan"
+    "venue": "Rajiv Gandhi International Stadium, Uppal",
+    "umpire1": "AK Chaudhary",
+    "umpire2": "K Srinivasan",
+    "umpire3": ""
   },
   {
     "id": "552",
@@ -11034,10 +11034,10 @@
     "win_by_runs": "23",
     "win_by_wickets": "0",
     "player_of_match": "LMP Simmons",
-    "venue": "\"Punjab Cricket Association Stadium",
-    "umpire1": "Mohali\"",
-    "umpire2": "RK Illingworth",
-    "umpire3": "VA Kulkarni"
+    "venue": "Punjab Cricket Association Stadium, Mohali",
+    "umpire1": "RK Illingworth",
+    "umpire2": "VA Kulkarni",
+    "umpire3": ""
   },
   {
     "id": "553",
@@ -11074,10 +11074,10 @@
     "win_by_runs": "24",
     "win_by_wickets": "0",
     "player_of_match": "SK Raina",
-    "venue": "\"MA Chidambaram Stadium",
-    "umpire1": "Chepauk\"",
-    "umpire2": "C Shamshuddin",
-    "umpire3": "K Srinath"
+    "venue": "MA Chidambaram Stadium, Chepauk",
+    "umpire1": "C Shamshuddin",
+    "umpire2": "K Srinath",
+    "umpire3": ""
   },
   {
     "id": "555",
@@ -11174,10 +11174,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "6",
     "player_of_match": "HH Pandya",
-    "venue": "\"MA Chidambaram Stadium",
-    "umpire1": "Chepauk\"",
-    "umpire2": "CB Gaffaney",
-    "umpire3": "CK Nandan"
+    "venue": "MA Chidambaram Stadium, Chepauk",
+    "umpire1": "CB Gaffaney",
+    "umpire2": "CK Nandan",
+    "umpire3": ""
   },
   {
     "id": "560",
@@ -11254,10 +11254,10 @@
     "win_by_runs": "12",
     "win_by_wickets": "0",
     "player_of_match": "RA Jadeja",
-    "venue": "\"MA Chidambaram Stadium",
-    "umpire1": "Chepauk\"",
-    "umpire2": "M Erasmus",
-    "umpire3": "CK Nandan"
+    "venue": "MA Chidambaram Stadium, Chepauk",
+    "umpire1": "M Erasmus",
+    "umpire2": "CK Nandan",
+    "umpire3": ""
   },
   {
     "id": "564",
@@ -11274,10 +11274,10 @@
     "win_by_runs": "5",
     "win_by_wickets": "0",
     "player_of_match": "DA Warner",
-    "venue": "\"Rajiv Gandhi International Stadium",
-    "umpire1": "Uppal\"",
-    "umpire2": "AK Chaudhary",
-    "umpire3": "HDPK Dharmasena"
+    "venue": "Rajiv Gandhi International Stadium, Uppal",
+    "umpire1": "AK Chaudhary",
+    "umpire2": "HDPK Dharmasena",
+    "umpire3": ""
   },
   {
     "id": "565",
@@ -11314,10 +11314,10 @@
     "win_by_runs": "22",
     "win_by_wickets": "0",
     "player_of_match": "AR Patel",
-    "venue": "\"Punjab Cricket Association Stadium",
-    "umpire1": "Mohali\"",
-    "umpire2": "JD Cloete",
-    "umpire3": "C Shamshuddin"
+    "venue": "Punjab Cricket Association Stadium, Mohali",
+    "umpire1": "JD Cloete",
+    "umpire2": "C Shamshuddin",
+    "umpire3": ""
   },
   {
     "id": "567",
@@ -11354,10 +11354,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "6",
     "player_of_match": "V Kohli",
-    "venue": "\"Rajiv Gandhi International Stadium",
-    "umpire1": "Uppal\"",
-    "umpire2": "AK Chaudhary",
-    "umpire3": "HDPK Dharmasena"
+    "venue": "Rajiv Gandhi International Stadium, Uppal",
+    "umpire1": "AK Chaudhary",
+    "umpire2": "HDPK Dharmasena",
+    "umpire3": ""
   },
   {
     "id": "569",
@@ -11374,10 +11374,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "7",
     "player_of_match": "P Negi",
-    "venue": "\"Punjab Cricket Association Stadium",
-    "umpire1": "Mohali\"",
-    "umpire2": "CK Nandan",
-    "umpire3": "C Shamshuddin"
+    "venue": "Punjab Cricket Association Stadium, Mohali",
+    "umpire1": "CK Nandan",
+    "umpire2": "C Shamshuddin",
+    "umpire3": ""
   },
   {
     "id": "570",
@@ -11434,10 +11434,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "9",
     "player_of_match": "MJ McClenaghan",
-    "venue": "\"Rajiv Gandhi International Stadium",
-    "umpire1": "Uppal\"",
-    "umpire2": "CB Gaffaney",
-    "umpire3": "K Srinath"
+    "venue": "Rajiv Gandhi International Stadium, Uppal",
+    "umpire1": "CB Gaffaney",
+    "umpire2": "K Srinath",
+    "umpire3": ""
   },
   {
     "id": "573",
@@ -11574,10 +11574,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "5",
     "player_of_match": "AJ Finch",
-    "venue": "\"Punjab Cricket Association IS Bindra Stadium",
-    "umpire1": "Mohali\"",
-    "umpire2": "AK Chaudhary",
-    "umpire3": "VA Kulkarni"
+    "venue": "Punjab Cricket Association IS Bindra Stadium, Mohali",
+    "umpire1": "AK Chaudhary",
+    "umpire2": "VA Kulkarni",
+    "umpire3": ""
   },
   {
     "id": "580",
@@ -11674,10 +11674,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "8",
     "player_of_match": "G Gambhir",
-    "venue": "\"Rajiv Gandhi International Stadium",
-    "umpire1": "Uppal\"",
-    "umpire2": "AK Chaudhary",
-    "umpire3": "CK Nandan"
+    "venue": "Rajiv Gandhi International Stadium, Uppal",
+    "umpire1": "AK Chaudhary",
+    "umpire2": "CK Nandan",
+    "umpire3": ""
   },
   {
     "id": "585",
@@ -11714,10 +11714,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "6",
     "player_of_match": "M Vohra",
-    "venue": "\"Punjab Cricket Association IS Bindra Stadium",
-    "umpire1": "Mohali\"",
-    "umpire2": "S Ravi",
-    "umpire3": "C Shamshuddin"
+    "venue": "Punjab Cricket Association IS Bindra Stadium, Mohali",
+    "umpire1": "S Ravi",
+    "umpire2": "C Shamshuddin",
+    "umpire3": ""
   },
   {
     "id": "587",
@@ -11754,10 +11754,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "7",
     "player_of_match": "DA Warner",
-    "venue": "\"Rajiv Gandhi International Stadium",
-    "umpire1": "Uppal\"",
-    "umpire2": "HDPK Dharmasena",
-    "umpire3": "VK Sharma"
+    "venue": "Rajiv Gandhi International Stadium, Uppal",
+    "umpire1": "HDPK Dharmasena",
+    "umpire2": "VK Sharma",
+    "umpire3": ""
   },
   {
     "id": "589",
@@ -11774,10 +11774,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "6",
     "player_of_match": "RV Uthappa",
-    "venue": "\"Punjab Cricket Association IS Bindra Stadium",
-    "umpire1": "Mohali\"",
-    "umpire2": "S Ravi",
-    "umpire3": "C Shamshuddin"
+    "venue": "Punjab Cricket Association IS Bindra Stadium, Mohali",
+    "umpire1": "S Ravi",
+    "umpire2": "C Shamshuddin",
+    "umpire3": ""
   },
   {
     "id": "590",
@@ -11874,10 +11874,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "5",
     "player_of_match": "Mustafizur Rahman",
-    "venue": "\"Rajiv Gandhi International Stadium",
-    "umpire1": "Uppal\"",
-    "umpire2": "AK Chaudhary",
-    "umpire3": "CK Nandan"
+    "venue": "Rajiv Gandhi International Stadium, Uppal",
+    "umpire1": "AK Chaudhary",
+    "umpire2": "CK Nandan",
+    "umpire3": ""
   },
   {
     "id": "595",
@@ -11934,10 +11934,10 @@
     "win_by_runs": "25",
     "win_by_wickets": "0",
     "player_of_match": "PA Patel",
-    "venue": "\"Punjab Cricket Association IS Bindra Stadium",
-    "umpire1": "Mohali\"",
-    "umpire2": "Nitin Menon",
-    "umpire3": "RJ Tucker"
+    "venue": "Punjab Cricket Association IS Bindra Stadium, Mohali",
+    "umpire1": "Nitin Menon",
+    "umpire2": "RJ Tucker",
+    "umpire3": ""
   },
   {
     "id": "598",
@@ -11954,10 +11954,10 @@
     "win_by_runs": "34",
     "win_by_wickets": "0",
     "player_of_match": "AB Dinda",
-    "venue": "\"Rajiv Gandhi International Stadium",
-    "umpire1": "Uppal\"",
-    "umpire2": "AY Dandekar",
-    "umpire3": "CK Nandan"
+    "venue": "Rajiv Gandhi International Stadium, Uppal",
+    "umpire1": "AY Dandekar",
+    "umpire2": "CK Nandan",
+    "umpire3": ""
   },
   {
     "id": "599",
@@ -12054,10 +12054,10 @@
     "win_by_runs": "15",
     "win_by_wickets": "0",
     "player_of_match": "DA Warner",
-    "venue": "\"Rajiv Gandhi International Stadium",
-    "umpire1": "Uppal\"",
-    "umpire2": "AK Chaudhary",
-    "umpire3": "HDPK Dharmasena"
+    "venue": "Rajiv Gandhi International Stadium, Uppal",
+    "umpire1": "AK Chaudhary",
+    "umpire2": "HDPK Dharmasena",
+    "umpire3": ""
   },
   {
     "id": "604",
@@ -12194,10 +12194,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "5",
     "player_of_match": "B Kumar",
-    "venue": "\"Rajiv Gandhi International Stadium",
-    "umpire1": "Uppal\"",
-    "umpire2": "M Erasmus",
-    "umpire3": "S Ravi"
+    "venue": "Rajiv Gandhi International Stadium, Uppal",
+    "umpire1": "M Erasmus",
+    "umpire2": "S Ravi",
+    "umpire3": ""
   },
   {
     "id": "611",
@@ -12234,10 +12234,10 @@
     "win_by_runs": "9",
     "win_by_wickets": "0",
     "player_of_match": "MP Stoinis",
-    "venue": "\"Punjab Cricket Association IS Bindra Stadium",
-    "umpire1": "Mohali\"",
-    "umpire2": "HDPK Dharmasena",
-    "umpire3": "CK Nandan"
+    "venue": "Punjab Cricket Association IS Bindra Stadium, Mohali",
+    "umpire1": "HDPK Dharmasena",
+    "umpire2": "CK Nandan",
+    "umpire3": ""
   },
   {
     "id": "613",
@@ -12294,10 +12294,10 @@
     "win_by_runs": "1",
     "win_by_wickets": "0",
     "player_of_match": "SR Watson",
-    "venue": "\"Punjab Cricket Association IS Bindra Stadium",
-    "umpire1": "Mohali\"",
-    "umpire2": "AK Chaudhary",
-    "umpire3": "HDPK Dharmasena"
+    "venue": "Punjab Cricket Association IS Bindra Stadium, Mohali",
+    "umpire1": "AK Chaudhary",
+    "umpire2": "HDPK Dharmasena",
+    "umpire3": ""
   },
   {
     "id": "616",
@@ -12354,10 +12354,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "7",
     "player_of_match": "CH Morris",
-    "venue": "\"Rajiv Gandhi International Stadium",
-    "umpire1": "Uppal\"",
-    "umpire2": "K Bharatan",
-    "umpire3": "M Erasmus"
+    "venue": "Rajiv Gandhi International Stadium, Uppal",
+    "umpire1": "K Bharatan",
+    "umpire2": "M Erasmus",
+    "umpire3": ""
   },
   {
     "id": "619",
@@ -12434,10 +12434,10 @@
     "win_by_runs": "0",
     "win_by_wickets": "7",
     "player_of_match": "HM Amla",
-    "venue": "\"Punjab Cricket Association IS Bindra Stadium",
-    "umpire1": "Mohali\"",
-    "umpire2": "KN Ananthapadmanabhan",
-    "umpire3": "M Erasmus"
+    "venue": "Punjab Cricket Association IS Bindra Stadium, Mohali",
+    "umpire1": "KN Ananthapadmanabhan",
+    "umpire2": "M Erasmus",
+    "umpire3": ""
   },
   {
     "id": "623",
