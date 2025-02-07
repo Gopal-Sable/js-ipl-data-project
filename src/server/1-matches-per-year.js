@@ -1,5 +1,9 @@
+// import { log } from "console";
 import readFile from "./fileReaader.js";
+import writeFile from "./fileWritter.js";
 const data = await readFile("./src/data/matches.json");
+
+// console.log(data);
 
 // Number of matches played per year for all the years in IPL.
 function matchesPerYear(data){
@@ -13,4 +17,7 @@ function matchesPerYear(data){
   },{})
 }
 
+// console.log(matchesPerYear(data));
 
+
+ writeFile("./src/public/output/matchesPerYear.json",matchesPerYear(data))
