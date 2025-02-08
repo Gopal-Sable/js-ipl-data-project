@@ -57,6 +57,7 @@ writeFile(deliveriesJson, deliveries);
 //       obj[key] = value;
 //     }
 
+
 //     jsonData.push(obj);
 //   }
 //   return JSON.stringify(jsonData, null, 2);
