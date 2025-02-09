@@ -3,16 +3,13 @@ const matches = await readFile("./src/data/matches.json");
 const deliveries = await readFile("./src/data/deliveries.json");
 // Find the number of times each team won the toss and also won the match
 
-const matchesWin = () => {
+const matchesWin = (matches) => {
   return matches.reduce((results, match) => {
     if (match.toss_winner == match.winner) {
-      if (!results[match.winner]) {
-        results[match.winner] = 0;
-      }
-      results[match.winner]++;
+      results[match.winner]=(results[match.winner]|| 0)+1;
     }
     return results;
   }, {});
 };
 
-console.log(matchesWin());
+console.log(matchesWin(matches));
