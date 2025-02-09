@@ -1,6 +1,7 @@
 // Find the highest number of times one player has been dismissed by another player
 
 import readFile from "./fileReader.js";
+import writeFile from "./fileWritter.js";
 const matches = await readFile("./src/data/matches.json");
 const deliveries = await readFile("./src/data/deliveries.json");
 
@@ -26,5 +27,8 @@ function playerDismissed(deliveries) {
   return { [mostDismissed]: maxCount };
 }
 
-console.log(playerDismissed(deliveries));
+writeFile(
+  "./src/public/output/8-player-dismissed.json",
+    playerDismissed(deliveries)
+);
 

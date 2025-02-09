@@ -1,6 +1,7 @@
 // Find the strike rate of a batsman for each season
 
 import readFile from "./fileReader.js";
+import writeFile from "./fileWritter.js";
 const matches = await readFile("./src/data/matches.json");
 const deliveries = await readFile("./src/data/deliveries.json");
 
@@ -44,3 +45,7 @@ function strikRatesOfSeasons(matches, deliveries) {
   return strikeRates;
 }
 // console.log(strikRatesOfSeasons(matches,deliveries));
+writeFile(
+  "./src/public/output/7-strike-rate.json",
+  strikRatesOfSeasons(matches,deliveries)
+);

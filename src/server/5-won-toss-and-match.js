@@ -1,4 +1,5 @@
 import readFile from "./fileReader.js";
+import writeFile from "./fileWritter.js";
 const matches = await readFile("./src/data/matches.json");
 const deliveries = await readFile("./src/data/deliveries.json");
 // Find the number of times each team won the toss and also won the match
@@ -12,4 +13,7 @@ const matchesWin = (matches) => {
   }, {});
 };
 
-console.log(matchesWin(matches));
+writeFile(
+  "./src/public/output/5-won-toss-and-match.json",
+  matchesWin(matches)
+);

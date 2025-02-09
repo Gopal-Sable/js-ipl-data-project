@@ -1,21 +1,15 @@
-// import {promises as fs} from 'fs';
-// import csv from 'csv-parser';
-// import readFile from "./fileReader.js";
 import writeFile from "./fileWritter.js";
-
 import fs from "fs";
 import csv from "csv-parser";
 
-async function csvToJson(filePath) {
-  return new Promise((resolve, reject) => {
-    const results = [];
+function csvToJson(filePath, callback) {
+  const results = [];
 
-    fs.createReadStream(filePath)
-      .pipe(csv())
-      .on("data", (data) => results.push(data))
-      .on("end", () => resolve(results))
-      .on("error", (error) => reject(error));
-  });
+  fs.createReadStream(filePath)
+    .pipe(csv())
+    .on("data", (data) => results.push(data))
+    .on("end", () => callback(null, results))
+    .on("error", (error) => callback(error, null));
 }
 
 let matchesFilePath = "src/data/matches.csv";
@@ -23,26 +17,27 @@ let deliveriesFilePath = "src/data/deliveries.csv";
 let matchJson = "src/data/matches.json";
 let deliveriesJson = "src/data/deliveries.json";
 
-const matche = await csvToJson(matchesFilePath, (err, jsonData) => {
+csvToJson(matchesFilePath, (err, jsonData) => {
   if (err) {
-    return err;
-  } else {
-    return jsonData;
+    console.error("Error converting matches CSV:", err);
+    return;
   }
+  writeFile(matchJson, jsonData);
+  console.log("Matches JSON file written successfully!");
 });
 
-const deliveries = await csvToJson(deliveriesFilePath, (err, jsonData) => {
+csvToJson(deliveriesFilePath, (err, jsonData) => {
   if (err) {
-    return err;
-  } else {
-    return jsonData;
+    console.error("Error converting deliveries CSV:", err);
+    return;
   }
+  writeFile(deliveriesJson, jsonData);
+  console.log("Deliveries JSON file written successfully!");
 });
 
-writeFile(matchJson, matche);
-writeFile(deliveriesJson, deliveries);
 
-// export default function csvToJson(csvString) {
+// export default function csvToJson(path) {
+//  const csvString=fs.readFileSync(filePath, "utf8");
 //   const rows = csvString.split("\n").filter((row) => row.trim() !== "");
 
 //   const headers = rows[0].split(",");

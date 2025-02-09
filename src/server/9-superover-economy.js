@@ -1,5 +1,6 @@
 // Find the bowler with the best economy in super overs
 import readFile from "./fileReader.js";
+import writeFile from "./fileWritter.js";
 const matches = await readFile("./src/data/matches.json");
 const deliveries = await readFile("./src/data/deliveries.json");
 
@@ -39,4 +40,8 @@ const bestEconomyBowler = (matches, deliveries) => {
     return { bestBowler, bestEconomy };
 };
 
-console.log(bestEconomyBowler(matches, deliveries));
+// console.log(bestEconomyBowler(matches, deliveries));
+writeFile(
+  "./src/public/output/9-super-over-economy.json",
+  bestEconomyBowler(matches,deliveries)
+);

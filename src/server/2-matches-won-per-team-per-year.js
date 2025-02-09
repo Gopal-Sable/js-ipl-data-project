@@ -9,7 +9,8 @@ const matchesWonPerYear = (data) => {
     if (!teams[match.winner]) {
       teams[match.winner] = {};
     }
-    teams[match.winner][match.season] = (teams[match.winner][match.season]||0)+1;
+    teams[match.winner][match.season] =
+      (teams[match.winner][match.season] || 0) + 1;
 
     return teams;
   }, {});

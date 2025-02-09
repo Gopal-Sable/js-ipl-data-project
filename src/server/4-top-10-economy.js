@@ -1,6 +1,7 @@
 // Top 10 economical bowlers in the year 2015
 
 import readFile from "./fileReader.js";
+import writeFile from "./fileWritter.js";
 const matches = await readFile("./src/data/matches.json");
 const deliveries = await readFile("./src/data/deliveries.json");
 
@@ -41,4 +42,8 @@ function getTopEconomicalBowlers(year, topN = 10) {
   return economyData;
 }
 
-console.log(getTopEconomicalBowlers(2015));
+console.log();
+writeFile(
+  "./src/public/output/4-top-10-economy.json",
+  getTopEconomicalBowlers(2015)
+);

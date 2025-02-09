@@ -10,6 +10,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "convert-csv-to-json": "^2.50.0",
     "csv-parser": "^3.2.0"
   }
 }

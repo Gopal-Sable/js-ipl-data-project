@@ -1,4 +1,5 @@
 import readFile from "./fileReader.js";
+import writeFile from "./fileWritter.js";
 const matches = await readFile("./src/data/matches.json");
 const deliveries = await readFile("./src/data/deliveries.json");
 
@@ -23,6 +24,10 @@ const manOfSeason = (matches) => {
   }
   return man;
 };
-console.log(manOfSeason(matches));
+// console.log(manOfSeason(matches));
+writeFile(
+  "./src/public/output/6-player-of-match.json",
+  manOfSeason(matches)
+);
 
 

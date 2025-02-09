@@ -1,4 +1,6 @@
+
 import readFile from "./fileReader.js";
+import writeFile from "./fileWritter.js";
 const matches = await readFile("./src/data/matches.json");
 const deliveries = await readFile("./src/data/deliveries.json");
 
@@ -21,4 +23,9 @@ function extraRunsConceded(year, matches, deliveries) {
 }
 
 const result = extraRunsConceded(2016, matches, deliveries);
-console.log(result);
+
+writeFile(
+  "./src/public/output/3-extra-runs.json",
+  result
+);
+
