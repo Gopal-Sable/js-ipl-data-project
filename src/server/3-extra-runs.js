@@ -3,24 +3,22 @@ const matches = await readFile("./src/data/matches.json");
 const deliveries = await readFile("./src/data/deliveries.json");
 
 // 3 Extra runs conceded per team in the year 2016
-const seasonMatchIds = (year) => {
-  return matches.filter((data) => data.season == year).map((match) => match.id);
-};
-const data = seasonMatchIds(2016);
-// console.log(data);
 
-let extras = {};
-deliveries.forEach((delivery) => {
-  if (data.includes(delivery.match_id)) {
-    let team = delivery.bowling_team;
-    let extraRuns = parseInt(delivery.extra_runs);
-    if (!extras[team]) {
-      extras[team] = 0;
+function extraRunsConceded(year, matches, deliveries) {
+  const seasonMatchIds = matches
+    .filter((match) => match.season == year)
+    .map(({ id }) => id);
+
+  const extras = {};
+
+  deliveries.forEach(({ match_id, bowling_team, extra_runs }) => {
+    if (seasonMatchIds.includes(match_id)) {
+      extras[bowling_team] = (extras[bowling_team] || 0) + parseInt(extra_runs);
     }
-    extras[team] += extraRuns;
-  }
-});
-console.log(extras);
+  });
 
+  return extras;
+}
 
-
+const result = extraRunsConceded(2016, matches, deliveries);
+console.log(result);
