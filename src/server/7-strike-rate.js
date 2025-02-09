@@ -13,71 +13,33 @@ const result = matches.reduce((seasonMatchIds, match) => {
   return seasonMatchIds;
 }, {});
 
-const strikeRate = {};
+// console.log(result);
+
+const strikeRates = {};
 deliveries.forEach((ball) => {
   for (const key in result) {
     if (result[key].includes(ball.match_id)) {
-      if (!strikeRate[key]) {
-        strikeRate[key] = {};
+      if (!strikeRates[key]) {
+        strikeRates[key] = {};
       }
-      if (!strikeRate[key][ball.batsman]) {
-        strikeRate[key][ball.batsman] = { "runs": 0, "total-balls": 0 };
+      if (!strikeRates[key][ball.batsman]) {
+        strikeRates[key][ball.batsman] = { runs: 0, totalballs: 0 };
       }
-      strikeRate[key][ball.batsman].runs += parseInt(ball.batsman_runs);
-      
+      strikeRates[key][ball.batsman].runs += parseInt(ball.batsman_runs);
+
       if (ball.extra_runs == "0") {
-        strikeRate[key][ball.batsman].total-balls++;
+        strikeRates[key][ball.batsman].totalballs++;
       }
+      strikeRates[key][ball.batsman].strikRate = (
+        (strikeRates[key][ball.batsman].runs * 100) /
+        strikeRates[key][ball.batsman].totalballs
+      ).toFixed(2);
     }
   }
 });
-console.log(strikeRate);
+console.log(strikeRates);
 
 // {
 //     2015:[1,2,3],
 //     2016:[5,6,7]
 // }
-// {
-//     "match_id": "1",
-//     "inning": "1",
-//     "batting_team": "Sunrisers Hyderabad",
-//     "bowling_team": "Royal Challengers Bangalore",
-//     "over": "1",
-//     "ball": "2",
-//     "batsman": "DA Warner",
-//     "non_striker": "S Dhawan",
-//     "bowler": "TS Mills",
-//     "is_super_over": "0",
-//     "wide_runs": "0",
-//     "bye_runs": "0",
-//     "legbye_runs": "0",
-//     "noball_runs": "0",
-//     "penalty_runs": "0",
-//     "batsman_runs": "0",
-//     "extra_runs": "0",
-//     "total_runs": "0",
-//     "player_dismissed": "",
-//     "dismissal_kind": "",
-//     "fielder": ""
-//   },
-
-//   {
-//     "id": "2",
-//     "season": "2017",
-//     "city": "Pune",
-//     "date": "2017-04-06",
-//     "team1": "Mumbai Indians",
-//     "team2": "Rising Pune Supergiant",
-//     "toss_winner": "Rising Pune Supergiant",
-//     "toss_decision": "field",
-//     "result": "normal",
-//     "dl_applied": "0",
-//     "winner": "Rising Pune Supergiant",
-//     "win_by_runs": "0",
-//     "win_by_wickets": "7",
-//     "player_of_match": "SPD Smith",
-//     "venue": "Maharashtra Cricket Association Stadium",
-//     "umpire1": "A Nand Kishore",
-//     "umpire2": "S Ravi",
-//     "umpire3": ""
-//   },

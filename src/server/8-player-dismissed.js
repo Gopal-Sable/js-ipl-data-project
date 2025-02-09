@@ -4,20 +4,24 @@ import readFile from "./fileReader.js";
 const matches = await readFile("./src/data/matches.json");
 const deliveries = await readFile("./src/data/deliveries.json");
 
-const a=deliveries.reduce((players,over)=>{
-    if (over.player_dismissed!="") {
-        if (!players[over.player_dismissed]) {
-            players[over.player_dismissed]=0;
-        }
-        players[over.player_dismissed]++;
+const a = deliveries.reduce((players, over) => {
+  if (over.player_dismissed != "") {
+    if (!players[over.player_dismissed]) {
+      players[over.player_dismissed] = 0;
     }
-    return players;
-},{})
+    players[over.player_dismissed]++;
+  }
+  return players;
+}, {});
 
-
-console.log(Object.entries(a).sort((a,b)=>
-    b[1]-a[1]
-).slice(0,1).map(data=> {return {[data[0]]:data[1]}}))
+console.log(
+  Object.entries(a)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 1)
+    .map((data) => {
+      return { [data[0]]: data[1] };
+    })
+);
 
 // {
 //     "match_id": "1",
