@@ -3,38 +3,40 @@ import readFile from "./fileReader.js";
 const matches = await readFile("./src/data/matches.json");
 const deliveries = await readFile("./src/data/deliveries.json");
 
-const matchesInYear = () => {
-  return matches.map((match) => match.id);
-};
-const matchesOfYear = matchesInYear();
+const bestEconomyBowler = (matches, deliveries) => {
+  const matchesOfYear = matches.map((match) => match.id);
 
-// console.log(matchesOfYear);
+  let data = {};
+  deliveries.forEach(({match_id,is_super_over,wide_runs,noball_runs,batsman_runs,bowler,}) => {
+    if (matchesOfYear.includes(match_id) && is_super_over=== "1") {
+      let runs =
+        parseInt(wide_runs) +
+        parseInt(noball_runs) +
+        parseInt(batsman_runs);
 
-let data = {};
-// deliveries.
-deliveries.forEach(over => {
-    if(matchesOfYear.includes(over.match_id) && over.is_super_over==="1"){
-        let runs=parseInt(over.wide_runs )+ parseInt(over.noball_runs) + parseInt(over.batsman_runs)
-
-        if (!data[over.bowler]) {
-            data[over.bowler]={}
-            data[over.bowler].total_runs=0
-            data[over.bowler].total_balls=0
-        }
-        data[over.bowler].total_runs +=runs;
-        if (over.wide_runs==="0" && over.noball_runs==="0") {
-            data[over.bowler].total_balls++;
-        }
-        data[over.bowler].economy=(data[over.bowler].total_runs/data[over.bowler].total_balls)*6
+      if (!data[bowler]) {
+        data[bowler] = {};
+        data[bowler].total_runs = 0;
+        data[bowler].total_balls = 0;
+      }
+      data[bowler].total_runs += runs;
+      if (wide_runs === "0" && noball_runs === "0") {
+        data[bowler].total_balls++;
+      }
     }
-});
+  });
+  let bestBowler = null;
+  let bestEconomy = Infinity;
 
-console.log(
-  Object.entries(data)
-    .sort((a, b) => {
-      return a[1].economy - b[1].economy;
-    })
-    .map((data) => {
-      return { [data[0]]: data[1].economy };
-    }).slice(0,1)
-);
+  for (const [bowler, { total_runs, total_balls }] of Object.entries(data)) {
+    const economy = (total_runs / (total_balls / 6)).toFixed(2);
+    if (parseInt(economy) < bestEconomy) {
+      bestEconomy = economy;
+      bestBowler = bowler;
+    }
+  }
+
+    return { bestBowler, bestEconomy };
+};
+
+console.log(bestEconomyBowler(matches, deliveries));
