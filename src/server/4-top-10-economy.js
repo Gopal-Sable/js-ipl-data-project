@@ -35,5 +35,5 @@ deliveries.forEach(over => {
 console.log(Object.entries(data).sort((a,b)=>{
     return a[1].economy - b[1].economy})
     .map(data=>{
-        return {economy:data[1].economy}
-    }))
+        return {[data[0]]:Math.round(data[1].economy * 100) / 100}
+    }).slice(0,10))

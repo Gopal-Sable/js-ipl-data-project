@@ -1,42 +1,24 @@
-// Find the strike rate of a batsman for each season
+// Find the highest number of times one player has been dismissed by another player
 
 import readFile from "./fileReader.js";
 const matches = await readFile("./src/data/matches.json");
 const deliveries = await readFile("./src/data/deliveries.json");
 
-const result = matches.reduce((seasonMatchIds, match) => {
-  if (!seasonMatchIds[match.season]) {
-    seasonMatchIds[match.season] = [match.id];
-  } else {
-    seasonMatchIds[match.season] = [...seasonMatchIds[match.season], match.id];
-  }
-  return seasonMatchIds;
-}, {});
-
-const strikeRate = {};
-deliveries.forEach((ball) => {
-  for (const key in result) {
-    if (result[key].includes(ball.match_id)) {
-      if (!strikeRate[key]) {
-        strikeRate[key] = {};
-      }
-      if (!strikeRate[key][ball.batsman]) {
-        strikeRate[key][ball.batsman] = { "runs": 0, "total-balls": 0 };
-      }
-      strikeRate[key][ball.batsman].runs += parseInt(ball.batsman_runs);
-      
-      if (ball.extra_runs == "0") {
-        strikeRate[key][ball.batsman].total-balls++;
-      }
+const a=deliveries.reduce((players,over)=>{
+    if (over.player_dismissed!="") {
+        if (!players[over.player_dismissed]) {
+            players[over.player_dismissed]=0;
+        }
+        players[over.player_dismissed]++;
     }
-  }
-});
-console.log(strikeRate);
+    return players;
+},{})
 
-// {
-//     2015:[1,2,3],
-//     2016:[5,6,7]
-// }
+
+console.log(Object.entries(a).sort((a,b)=>
+    b[1]-a[1]
+).slice(0,1).map(data=> {return {[data[0]]:data[1]}}))
+
 // {
 //     "match_id": "1",
 //     "inning": "1",
