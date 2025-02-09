@@ -1,7 +1,7 @@
 // Top 10 economical bowlers in the year 2015
 
-import readFile from "./fileReader.js";
-import writeFile from "./fileWritter.js";
+import readFile from "../utility/fileReader.js";
+import writeFile from "../utility/fileWritter.js";
 const matches = await readFile("./src/data/matches.json");
 const deliveries = await readFile("./src/data/deliveries.json");
 

@@ -1,7 +1,7 @@
 // Find the strike rate of a batsman for each season
 
-import readFile from "./fileReader.js";
-import writeFile from "./fileWritter.js";
+import readFile from "../utility/fileReader.js";
+import writeFile from "../utility/fileWritter.js";
 const matches = await readFile("./src/data/matches.json");
 const deliveries = await readFile("./src/data/deliveries.json");
 
@@ -10,7 +10,7 @@ function strikRatesOfSeasons(matches, deliveries) {
     if (!seasonMatchIds[match.season]) {
       seasonMatchIds[match.season] = [match.id];
     } else {
-      seasonMatchIds[match.season].push(match.id)
+      seasonMatchIds[match.season].push(match.id);
     }
     return seasonMatchIds;
   }, {});
@@ -18,7 +18,7 @@ function strikRatesOfSeasons(matches, deliveries) {
   // console.log(matchIds);
 
   const strikeRates = {};
-  deliveries.forEach(({match_id,batsman,batsman_runs,extra_runs}) => {
+  deliveries.forEach(({ match_id, batsman, batsman_runs, extra_runs }) => {
     for (const key in matchIds) {
       if (matchIds[key].includes(match_id)) {
         if (!strikeRates[key]) {
@@ -32,14 +32,13 @@ function strikRatesOfSeasons(matches, deliveries) {
         if (extra_runs == "0") {
           strikeRates[key][batsman].totalballs++;
         }
-        
       }
     }
   });
   for (const season in strikeRates) {
     for (const batsman in strikeRates[season]) {
       const { runs, totalballs } = strikeRates[season][batsman];
-      strikeRates[season][batsman] = +(runs / totalballs * 100).toFixed(2) ;
+      strikeRates[season][batsman] = +((runs / totalballs) * 100).toFixed(2);
     }
   }
   return strikeRates;
@@ -47,5 +46,5 @@ function strikRatesOfSeasons(matches, deliveries) {
 // console.log(strikRatesOfSeasons(matches,deliveries));
 writeFile(
   "./src/public/output/7-strike-rate.json",
-  strikRatesOfSeasons(matches,deliveries)
+  strikRatesOfSeasons(matches, deliveries)
 );

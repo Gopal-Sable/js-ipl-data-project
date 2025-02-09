@@ -1,6 +1,6 @@
 // Find the bowler with the best economy in super overs
-import readFile from "./fileReader.js";
-import writeFile from "./fileWritter.js";
+import readFile from "../utility/fileReader.js";
+import writeFile from "../utility/fileWritter.js";
 const matches = await readFile("./src/data/matches.json");
 const deliveries = await readFile("./src/data/deliveries.json");
 
@@ -8,24 +8,31 @@ const bestEconomyBowler = (matches, deliveries) => {
   const matchesOfYear = matches.map((match) => match.id);
 
   let data = {};
-  deliveries.forEach(({match_id,is_super_over,wide_runs,noball_runs,batsman_runs,bowler,}) => {
-    if (matchesOfYear.includes(match_id) && is_super_over=== "1") {
-      let runs =
-        parseInt(wide_runs) +
-        parseInt(noball_runs) +
-        parseInt(batsman_runs);
+  deliveries.forEach(
+    ({
+      match_id,
+      is_super_over,
+      wide_runs,
+      noball_runs,
+      batsman_runs,
+      bowler,
+    }) => {
+      if (matchesOfYear.includes(match_id) && is_super_over === "1") {
+        let runs =
+          parseInt(wide_runs) + parseInt(noball_runs) + parseInt(batsman_runs);
 
-      if (!data[bowler]) {
-        data[bowler] = {};
-        data[bowler].total_runs = 0;
-        data[bowler].total_balls = 0;
-      }
-      data[bowler].total_runs += runs;
-      if (wide_runs === "0" && noball_runs === "0") {
-        data[bowler].total_balls++;
+        if (!data[bowler]) {
+          data[bowler] = {};
+          data[bowler].total_runs = 0;
+          data[bowler].total_balls = 0;
+        }
+        data[bowler].total_runs += runs;
+        if (wide_runs === "0" && noball_runs === "0") {
+          data[bowler].total_balls++;
+        }
       }
     }
-  });
+  );
   let bestBowler = null;
   let bestEconomy = Infinity;
 
@@ -37,11 +44,11 @@ const bestEconomyBowler = (matches, deliveries) => {
     }
   }
 
-    return { bestBowler, bestEconomy };
+  return { bestBowler, bestEconomy };
 };
 
 // console.log(bestEconomyBowler(matches, deliveries));
 writeFile(
   "./src/public/output/9-super-over-economy.json",
-  bestEconomyBowler(matches,deliveries)
+  bestEconomyBowler(matches, deliveries)
 );

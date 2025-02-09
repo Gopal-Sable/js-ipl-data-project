@@ -1,5 +1,5 @@
-import readFile from "./fileReader.js";
-import writeFile from "./fileWritter.js";
+import readFile from "../utility/fileReader.js";
+import writeFile from "../utility/fileWritter.js";
 const data = await readFile("./src/data/matches.json");
 
 // Number of matches won per team per year in IPL.

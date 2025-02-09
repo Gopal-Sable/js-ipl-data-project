@@ -1,5 +1,5 @@
-import readFile from "./fileReader.js";
-import writeFile from "./fileWritter.js";
+import readFile from "../utility/fileReader.js";
+import writeFile from "../utility/fileWritter.js";
 const matches = await readFile("./src/data/matches.json");
 const deliveries = await readFile("./src/data/deliveries.json");
 
@@ -9,7 +9,8 @@ const manOfSeason = (matches) => {
     if (!manOfMatch[match.season]) {
       manOfMatch[match.season] = {};
     }
-    manOfMatch[match.season][match.player_of_match]=( manOfMatch[match.season][match.player_of_match]|| 0)+1;
+    manOfMatch[match.season][match.player_of_match] =
+      (manOfMatch[match.season][match.player_of_match] || 0) + 1;
     return manOfMatch;
   }, {});
 
@@ -25,9 +26,4 @@ const manOfSeason = (matches) => {
   return man;
 };
 // console.log(manOfSeason(matches));
-writeFile(
-  "./src/public/output/6-player-of-match.json",
-  manOfSeason(matches)
-);
-
-
+writeFile("./src/public/output/6-player-of-match.json", manOfSeason(matches));
