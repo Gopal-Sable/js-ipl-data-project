@@ -2,8 +2,8 @@
 
 import readFile from "../utility/fileReader.js";
 import writeFile from "../utility/fileWritter.js";
-const matches = await readFile("./src/data/matches.json");
-const deliveries = await readFile("./src/data/deliveries.json");
+const matches = readFile("./src/data/matches.json");
+const deliveries = readFile("./src/data/deliveries.json");
 
 function strikRatesOfSeasons(matches, deliveries) {
   const matchIds = matches.reduce((seasonMatchIds, match) => {

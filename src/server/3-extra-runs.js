@@ -1,7 +1,7 @@
 import readFile from "../utility/fileReader.js";
 import writeFile from "../utility/fileWritter.js";
-const matches = await readFile("./src/data/matches.json");
-const deliveries = await readFile("./src/data/deliveries.json");
+const matches = readFile("./src/data/matches.json");
+const deliveries = readFile("./src/data/deliveries.json");
 
 // 3 Extra runs conceded per team in the year 2016
 
