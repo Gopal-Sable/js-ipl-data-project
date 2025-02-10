@@ -18,7 +18,7 @@ function strikRatesOfSeasons(matches, deliveries) {
   // console.log(matchIds);
 
   const strikeRates = {};
-  deliveries.forEach(({ match_id, batsman, batsman_runs, extra_runs }) => {
+  deliveries.forEach(({ match_id, batsman, batsman_runs, extra_runs,wide_runs }) => {
     for (const key in matchIds) {
       if (matchIds[key].includes(match_id)) {
         if (!strikeRates[key]) {
@@ -29,7 +29,7 @@ function strikRatesOfSeasons(matches, deliveries) {
         }
         strikeRates[key][batsman].runs += parseInt(batsman_runs);
 
-        if (extra_runs == "0") {
+        if (wide_runs == "0") {
           strikeRates[key][batsman].totalballs++;
         }
       }
