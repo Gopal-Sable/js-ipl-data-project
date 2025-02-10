@@ -1,6 +1,4 @@
-import { createRequire } from "module"; 
-const require = createRequire(import.meta.url);
-const fs = require("fs");
+import fs from "fs";
 
 export default function readFile(filePath) {
   try {
