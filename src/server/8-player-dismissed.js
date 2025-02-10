@@ -2,29 +2,42 @@
 
 import readFile from "../utility/fileReader.js";
 import writeFile from "../utility/fileWritter.js";
-const matches = readFile("./src/data/matches.json");
-const deliveries = readFile("./src/data/deliveries.json");
+const matches =  readFile("./src/data/matches.json");
+const deliveries =  readFile("./src/data/deliveries.json");
 
 function playerDismissed(deliveries) {
-  const dismissedList = deliveries.reduce((players, over) => {
-    if (over.player_dismissed != "") {
-      players[over.player_dismissed] =
-        (players[over.player_dismissed] || 0) + 1;
+  const dismissedList = deliveries.reduce((players, {player_dismissed , bowler}) => {
+    if (player_dismissed) {
+      if(!players[player_dismissed]){
+        players[player_dismissed]={}
+      }
+      players[player_dismissed][bowler]  =
+        (players[player_dismissed][bowler] || 0) + 1;
     }
     return players;
   }, {});
 
   let mostDismissed = null;
   let maxCount = 0;
+  let dismissedBy=null;
 
-  for (const [player, count] of Object.entries(dismissedList)) {
-    if (count > maxCount) {
-      maxCount = count;
-      mostDismissed = player;
+  Object.entries(dismissedList).forEach(([batsman, dismissRecord])=>{
+    Object.entries(dismissRecord).forEach(([bowler,wickets])=>{
+      if (wickets>maxCount) {
+        maxCount=wickets;
+        mostDismissed=batsman;
+        dismissedBy=bowler;
+      }
+    })
+  })
+
+  const result=  {
+      batsman: mostDismissed,
+      bowler:dismissedBy,
+      count:maxCount
+
     }
-  }
-
-  return { [mostDismissed]: maxCount };
+  return result;
 }
 
 writeFile(
