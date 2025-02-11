@@ -6,6 +6,5 @@ export default function readFile(filePath) {
     return JSON.parse(data);
   } catch (err) {
     console.error(`Error reading file ${filePath}:`, err);
-    throw err;
   }
 }
