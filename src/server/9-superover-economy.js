@@ -4,20 +4,18 @@ import writeFile from "../utility/fileWritter.js";
 const matches = readFile("./src/data/matches.json");
 const deliveries = readFile("./src/data/deliveries.json");
 
-const bestEconomyBowler = (matches, deliveries) => {
-  const matchesOfYear = matches.map((match) => match.id);
+const bestEconomyBowler = (deliveries) => {
 
   let data = {};
   deliveries.forEach(
     ({
-      match_id,
       is_super_over,
       wide_runs,
       noball_runs,
       batsman_runs,
       bowler,
     }) => {
-      if (matchesOfYear.includes(match_id) && is_super_over === "1") {
+      if (is_super_over === "1") {
         let runs =
           parseInt(wide_runs) + parseInt(noball_runs) + parseInt(batsman_runs);
 
@@ -50,5 +48,5 @@ const bestEconomyBowler = (matches, deliveries) => {
 // console.log(bestEconomyBowler(matches, deliveries));
 writeFile(
   "./src/public/output/9-super-over-economy.json",
-  bestEconomyBowler(matches, deliveries)
+  bestEconomyBowler(deliveries)
 );
