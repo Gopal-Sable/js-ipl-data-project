@@ -2,41 +2,48 @@
 
 import readFile from "../utility/fileReader.js";
 import writeFile from "../utility/fileWritter.js";
-const matches =  readFile("./src/data/matches.json");
-const deliveries =  readFile("./src/data/deliveries.json");
+const deliveries = readFile("./src/data/deliveries.json");
 
-function playerDismissed(deliveries) {
-  const dismissedList = deliveries.reduce((players, {player_dismissed , bowler}) => {
-    if (player_dismissed) {
-      if(!players[player_dismissed]){
-        players[player_dismissed]={}
+function getDismissed() {
+  const dismissed = deliveries.reduce(
+    (players, { player_dismissed, bowler }) => {
+      if (player_dismissed) {
+        if (!players[player_dismissed]) {
+          players[player_dismissed] = {};
+        }
+        players[player_dismissed][bowler] =
+          (players[player_dismissed][bowler] || 0) + 1;
       }
-      players[player_dismissed][bowler]  =
-        (players[player_dismissed][bowler] || 0) + 1;
-    }
-    return players;
-  }, {});
+      return players;
+    },
+    {}
+  );
+
+  return dismissed;
+}
+
+function playerDismissed() {
+  const dismissedList = getDismissed();
 
   let mostDismissed = null;
   let maxCount = 0;
-  let dismissedBy=null;
+  let dismissedBy = null;
 
-  Object.entries(dismissedList).forEach(([batsman, dismissRecord])=>{
-    Object.entries(dismissRecord).forEach(([bowler,wickets])=>{
-      if (wickets>maxCount) {
-        maxCount=wickets;
-        mostDismissed=batsman;
-        dismissedBy=bowler;
+  Object.entries(dismissedList).forEach(([batsman, dismissRecord]) => {
+    Object.entries(dismissRecord).forEach(([bowler, wickets]) => {
+      if (wickets > maxCount) {
+        maxCount = wickets;
+        mostDismissed = batsman;
+        dismissedBy = bowler;
       }
-    })
-  })
+    });
+  });
 
-  const result=  {
-      batsman: mostDismissed,
-      bowler:dismissedBy,
-      count:maxCount
-
-    }
+  const result = {
+    batsman: mostDismissed,
+    bowler: dismissedBy,
+    count: maxCount,
+  };
   return result;
 }
 
