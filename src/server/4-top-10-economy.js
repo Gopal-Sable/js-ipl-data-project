@@ -2,39 +2,44 @@
 
 import readFile from "../utility/fileReader.js";
 import writeFile from "../utility/fileWritter.js";
-const matches = readFile("./src/data/matches.json");
+import getMatchIds from "../utility/getMatchIds.js";
+
 const deliveries = readFile("./src/data/deliveries.json");
 
-function getTopEconomicalBowlers(year, topN = 10) {
-  const matchesOfYear = matches
-    .filter(({ season }) => season == year)
-    .map(({ id }) => id);
-
-  const data = {};
-  deliveries.forEach(
-    ({ match_id, bowler, wide_runs, noball_runs, batsman_runs }) => {
+function getBowlersStats(matchesOfYear) {
+  return deliveries.reduce(
+    (
+      bowlerStat,
+      { match_id, bowler, wide_runs, noball_runs, batsman_runs }
+    ) => {
       if (matchesOfYear.includes(match_id)) {
         const runs =
           Number(wide_runs) + Number(noball_runs) + Number(batsman_runs);
 
-        if (!data[bowler]) {
-          data[bowler] = { total_runs: 0, total_balls: 0 };
+        if (!bowlerStat[bowler]) {
+          bowlerStat[bowler] = { total_runs: 0, total_balls: 0 };
         }
-
-        data[bowler].total_runs += runs;
+        bowlerStat[bowler].total_runs += runs;
 
         if (wide_runs === "0" && noball_runs === "0") {
-          data[bowler].total_balls++;
+          bowlerStat[bowler].total_balls++;
         }
       }
-    }
+      return bowlerStat;
+    },
+    {}
   );
+}
 
-  const economyData = Object.entries(data)
-    .map(([bowler, stats]) => ({
+function getTopEconomicalBowlers(year, topN = 10) {
+  const matchesOfYear = getMatchIds(year);
+  const bowlersStat = getBowlersStats(matchesOfYear);
+
+  const economyData = Object.entries(bowlersStat)
+    .map(([bowler, {total_runs,total_balls}]) => ({
       bowler,
       economy:
-        Math.round((stats.total_runs / (stats.total_balls / 6)) * 100) / 100,
+        Math.round((total_runs / (total_balls / 6)) * 100) / 100,
     }))
     .sort((a, b) => a.economy - b.economy)
     .slice(0, topN);
