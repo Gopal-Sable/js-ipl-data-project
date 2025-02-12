@@ -1,20 +1,12 @@
 import readFile from "../utility/fileReader.js";
 import writeFile from "../utility/fileWritter.js";
-const matches = readFile("./src/data/matches.json");
+import getMatchIds from "../utility/getMatchIds.js";
 const deliveries = readFile("./src/data/deliveries.json");
 
 // 3 Extra runs conceded per team in the year 2016
-function getMatchIdsOfYear(year) {
-  return matches.reduce((ids, { id, season }) => {
-    if (season == year) {
-      ids.push(id);
-    }
-    return ids;
-  }, []);
-}
 
 function extraRunsConceded(year) {
-  const seasonMatchIds = getMatchIdsOfYear(year);
+  const seasonMatchIds = getMatchIds(year);
 
   const extras = deliveries.reduce(
     (extra, { match_id, bowling_team, extra_runs }) => {
