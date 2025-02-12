@@ -1,11 +1,11 @@
 import readFile from "../utility/fileReader.js";
 import writeFile from "../utility/fileWritter.js";
-const data = readFile("./src/data/matches.json");
+const matches = readFile("./src/data/matches.json");
 
 // Number of matches won per team per year in IPL.
 
-const matchesWonPerYear = (data) => {
-  return data.reduce((teams, match) => {
+const matchesWonPerYear = (matches) => {
+  return matches.reduce((teams, match) => {
     if (!teams[match.winner]) {
       teams[match.winner] = {};
     }
@@ -18,5 +18,5 @@ const matchesWonPerYear = (data) => {
 
 writeFile(
   "./src/public/output/2-matches-won-per-team-per-year.json",
-  matchesWonPerYear(data)
+  matchesWonPerYear(matches)
 );
