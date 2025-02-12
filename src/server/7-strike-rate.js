@@ -6,7 +6,7 @@ const matches = readFile("./src/data/matches.json");
 const deliveries = readFile("./src/data/deliveries.json");
 
 function matchIdsOfSeason() {
-  const ids= matches.reduce((seasonMatchIds, match) => {
+  const ids = matches.reduce((seasonMatchIds, match) => {
     if (!seasonMatchIds[match.season]) {
       seasonMatchIds[match.season] = [match.id];
     } else {
@@ -17,7 +17,6 @@ function matchIdsOfSeason() {
 
   return ids;
 }
-
 
 function getStatsOfPlayers(matchIds) {
   return deliveries.reduce(
@@ -46,7 +45,7 @@ function getStatsOfPlayers(matchIds) {
 function strikRatesOfSeasons() {
   const matchIds = matchIdsOfSeason();
   const playersStats = getStatsOfPlayers(matchIds);
-    
+
   for (const season in playersStats) {
     for (const batsman in playersStats[season]) {
       const { runs, totalballs } = playersStats[season][batsman];

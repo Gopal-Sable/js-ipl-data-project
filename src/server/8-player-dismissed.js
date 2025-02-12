@@ -47,7 +47,5 @@ function playerDismissed() {
   return result;
 }
 
-writeFile(
-  "./src/public/output/8-player-dismissed.json",
-  playerDismissed(deliveries)
-);
+const result = playerDismissed();
+writeFile("./src/public/output/8-player-dismissed.json", result);

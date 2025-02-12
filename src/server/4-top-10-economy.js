@@ -36,10 +36,9 @@ function getTopEconomicalBowlers(year, topN = 10) {
   const bowlersStat = getBowlersStats(matchesOfYear);
 
   const economyData = Object.entries(bowlersStat)
-    .map(([bowler, {total_runs,total_balls}]) => ({
+    .map(([bowler, { total_runs, total_balls }]) => ({
       bowler,
-      economy:
-        Math.round((total_runs / (total_balls / 6)) * 100) / 100,
+      economy: Math.round((total_runs / (total_balls / 6)) * 100) / 100,
     }))
     .sort((a, b) => a.economy - b.economy)
     .slice(0, topN);
@@ -47,8 +46,5 @@ function getTopEconomicalBowlers(year, topN = 10) {
   return economyData;
 }
 
-console.log();
-writeFile(
-  "./src/public/output/4-top-10-economy.json",
-  getTopEconomicalBowlers(2015)
-);
+const result = getTopEconomicalBowlers(2015);
+writeFile("./src/public/output/4-top-10-economy.json", result);

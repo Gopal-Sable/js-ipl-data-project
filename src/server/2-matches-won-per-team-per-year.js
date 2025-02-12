@@ -16,7 +16,5 @@ const matchesWonPerYear = (matches) => {
   }, {});
 };
 
-writeFile(
-  "./src/public/output/2-matches-won-per-team-per-year.json",
-  matchesWonPerYear(matches)
-);
+const result = matchesWonPerYear(matches);
+writeFile("./src/public/output/2-matches-won-per-team-per-year.json", result);

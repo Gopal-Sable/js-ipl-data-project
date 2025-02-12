@@ -11,7 +11,5 @@ function matchesPerYear(matches) {
   }, {});
 }
 
-writeFile(
-  "./src/public/output/1-matches-per-year.json",
-  matchesPerYear(matches)
-);
+const result = matchesPerYear(matches);
+writeFile("./src/public/output/1-matches-per-year.json", result);
