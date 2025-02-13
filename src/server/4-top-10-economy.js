@@ -57,7 +57,6 @@ function getTopEconomicalBowlers(year, topN = 10) {
   const matchesOfYear = getMatchIds(year);
   const bowlersStat = getBowlersStats(matchesOfYear);
 
-  const bowlerstatArr = Object.entries(bowlersStat);
   let economyData = [];
   for (const bowler in bowlersStat) {
     const {total_runs, total_balls }=bowlersStat[bowler]
