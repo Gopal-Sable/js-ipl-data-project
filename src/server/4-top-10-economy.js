@@ -38,7 +38,7 @@ function getTopEconomicalBowlers(year, topN = 10) {
   const economyData = Object.entries(bowlersStat)
     .map(([bowler, { total_runs, total_balls }]) => ({
       bowler,
-      economy: Math.round((total_runs / (total_balls / 6)) * 100) / 100,
+      economy: (total_runs*6 / total_balls ).toFixed(2) 
     }))
     .sort((a, b) => a.economy - b.economy)
     .slice(0, topN);
