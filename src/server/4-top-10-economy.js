@@ -7,43 +7,70 @@ import getMatchIds from "../utility/getMatchIds.js";
 const deliveries = readFile("./src/data/deliveries.json");
 
 function getBowlersStats(matchesOfYear) {
-  return deliveries.reduce(
-    (
-      bowlerStat,
-      { match_id, bowler, wide_runs, noball_runs, batsman_runs }
-    ) => {
-      if (matchesOfYear.includes(match_id)) {
-        const runs =
-          Number(wide_runs) + Number(noball_runs) + Number(batsman_runs);
+  // return deliveries.reduce(
+  //   (
+  //     bowlerStat,
+  //     { match_id, bowler, wide_runs, noball_runs, batsman_runs }
+  //   ) => {
+  //     if (matchesOfYear.includes(match_id)) {
+  //       const runs =
+  //         Number(wide_runs) + Number(noball_runs) + Number(batsman_runs);
 
-        if (!bowlerStat[bowler]) {
-          bowlerStat[bowler] = { total_runs: 0, total_balls: 0 };
-        }
-        bowlerStat[bowler].total_runs += runs;
+  //       if (!bowlerStat[bowler]) {
+  //         bowlerStat[bowler] = { total_runs: 0, total_balls: 0 };
+  //       }
+  //       bowlerStat[bowler].total_runs += runs;
 
-        if (wide_runs === "0" && noball_runs === "0") {
-          bowlerStat[bowler].total_balls++;
-        }
+  //       if (wide_runs === "0" && noball_runs === "0") {
+  //         bowlerStat[bowler].total_balls++;
+  //       }
+  //     }
+  //     return bowlerStat;
+  //   },
+  //   {}
+  // );
+  const bowlersStat = {};
+
+  for (let i = 0; i < deliveries.length; i++) {
+    const { match_id, bowler, wide_runs, noball_runs, batsman_runs } =
+      deliveries[i];
+
+    if (matchesOfYear.includes(match_id)) {
+      const runs =
+        Number(wide_runs) + Number(noball_runs) + Number(batsman_runs);
+
+      if (!bowlersStat[bowler]) {
+        bowlersStat[bowler] = { total_runs: 0, total_balls: 0 };
       }
-      return bowlerStat;
-    },
-    {}
-  );
+      bowlersStat[bowler].total_runs += runs;
+
+      if (wide_runs === "0" && noball_runs === "0") {
+        bowlersStat[bowler].total_balls++;
+      }
+    }
+
+  }
+  return bowlersStat;
 }
 
 function getTopEconomicalBowlers(year, topN = 10) {
   const matchesOfYear = getMatchIds(year);
   const bowlersStat = getBowlersStats(matchesOfYear);
 
-  const economyData = Object.entries(bowlersStat)
-    .map(([bowler, { total_runs, total_balls }]) => ({
-      bowler,
-      economy: Math.round((total_runs / (total_balls / 6)) * 100) / 100,
-    }))
-    .sort((a, b) => a.economy - b.economy)
-    .slice(0, topN);
+  const bowlerstatArr = Object.entries(bowlersStat);
+  let economyData = [];
+  for (let i = 0; i < bowlerstatArr.length; i++) {
+    const [bowler, { total_runs, total_balls }] = bowlerstatArr[i];
+    let economy = Math.round((total_runs / (total_balls / 6)) * 100) / 100;
 
-  return economyData;
+    economyData.push({ bowler, economy });
+  }
+  const result = economyData
+    .sort((a, b) => {
+      return a.economy - b.economy;
+    })
+    .slice(0, topN);
+  return result;
 }
 
 const result = getTopEconomicalBowlers(2015);
