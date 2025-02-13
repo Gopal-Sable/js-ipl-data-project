@@ -5,7 +5,7 @@ import writeFile from "../utility/fileWritter.js";
 const deliveries = readFile("./src/data/deliveries.json");
 
 function getDismissed() {
-  const dismissedPlayers = [];
+  const dismissedPlayers = {};
   for (let i = 0; i < deliveries.length; i++) {
     const { player_dismissed, bowler } = deliveries[i];
     if (player_dismissed) {
@@ -26,20 +26,18 @@ function playerDismissed() {
   let maxCount = 0;
   let dismissedBy = null;
 
-
-  console.log(dismissedList);
-  for (let i = 0; i < dismissedList.length-200; i++) {
-    const [batsman, dismissedRecord] = dismissedList[i];
-      console.log(batsman,"hello",dismissedRecord);
-      
-    // for (let j = 0; j < dismissedRecord.length; j++) {
-    //   const [bowler, wickets] = dismissedRecord[j];
-    //   if (wickets > maxCount) {
-    //     maxCount = wickets;
-    //     mostDismissed = batsman;
-    //     dismissedBy = bowler;
-    //   }
-    // }
+ const dismissedArr=Object.entries(dismissedList)
+  for (let i = 0; i < dismissedArr.length; i++) {
+    const [batsman, dismissedRecord] = dismissedArr[i];
+    const dissmissedRecordArr= Object.entries(dismissedRecord)
+    for (let j = 0; j < dissmissedRecordArr.length; j++) {
+      const [bowler, wickets] = dissmissedRecordArr[j];
+      if (wickets > maxCount) {
+        maxCount = wickets;
+        mostDismissed = batsman;
+        dismissedBy = bowler;
+      }
+    }
   }
 
   const result = {
