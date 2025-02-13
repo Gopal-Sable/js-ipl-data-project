@@ -4,20 +4,31 @@ const matches = readFile("./src/data/matches.json");
 
 // Find a player who has won the highest number of Player of the Match awards for each season
 const getPlayersStat = () => {
-  return matches.reduce((manOfMatch, match) => {
-    if (!manOfMatch[match.season]) {
-      manOfMatch[match.season] = {};
+  // return matches.reduce((manOfMatch, match) => {
+  //   if (!manOfMatch[match.season]) {
+  //     manOfMatch[match.season] = {};
+  //   }
+  //   manOfMatch[match.season][match.player_of_match] =
+  //     (manOfMatch[match.season][match.player_of_match] || 0) + 1;
+  //   return manOfMatch;
+  // }, {});
+  const manOfMatch = {};
+  for (let i = 0; i < matches.length; i++) {
+    const { season, player_of_match } = matches[i];
+
+    if (!manOfMatch[season]) {
+      manOfMatch[season] = {};
     }
-    manOfMatch[match.season][match.player_of_match] =
-      (manOfMatch[match.season][match.player_of_match] || 0) + 1;
-    return manOfMatch;
-  }, {});
+    manOfMatch[season][player_of_match] =
+      (manOfMatch[season][player_of_match] || 0) + 1;
+  }
+  return manOfMatch;
 };
 
 const manOfSeason = () => {
   const playersStats = getPlayersStat();
 
-  const man = {};
+  let man = {};
   for (const year in playersStats) {
     Object.entries(playersStats[year])
       .sort((a, b) => b[1] - a[1])
