@@ -29,9 +29,8 @@ const bestEconomyBowler = () => {
   let bestBowler = null;
   let bestEconomy = Infinity;
 
-  for (const [bowler, { total_runs, total_balls }] of Object.entries(
-    bowlersStat
-  )) {
+  for (const bowler in bowlersStat) {
+    const { total_runs, total_balls } = bowlersStat[bowler];
     const economy = (total_runs / (total_balls / 6)).toFixed(2);
     if (parseInt(economy) < bestEconomy) {
       bestEconomy = economy;
