@@ -13,4 +13,3 @@ export default function getMatchIds(year) {
   return ids;
 }
 
-console.log(getMatchIds(2015));
