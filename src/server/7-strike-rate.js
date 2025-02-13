@@ -19,27 +19,6 @@ function matchIdsOfSeason() {
 }
 
 function getStatsOfPlayers(matchIds) {
-  // return deliveries.reduce(
-  //   (stats, { match_id, batsman, batsman_runs, wide_runs }) => {
-  //     for (const season in matchIds) {
-  //       if (matchIds[season].includes(match_id)) {
-  //         if (!stats[season]) {
-  //           stats[season] = {};
-  //         }
-  //         if (!stats[season][batsman]) {
-  //           stats[season][batsman] = { runs: 0, totalballs: 0 };
-  //         }
-  //         stats[season][batsman].runs += parseInt(batsman_runs);
-
-  //         if (wide_runs == "0") {
-  //           stats[season][batsman].totalballs++;
-  //         }
-  //       }
-  //     }
-  //     return stats;
-  //   },
-  //   {}
-  // );
   const stats = {};
   for (let i = 0; i < deliveries.length; i++) {
     const { match_id, batsman, batsman_runs, wide_runs } = deliveries[i];
@@ -59,14 +38,13 @@ function getStatsOfPlayers(matchIds) {
       }
     }
   }
-  return stats
+  return stats;
 }
 
 function strikRatesOfSeasons() {
   const matchIds = matchIdsOfSeason();
   const playersStats = getStatsOfPlayers(matchIds);
-  // console.log(playersStats);
-  
+
   for (const season in playersStats) {
     for (const batsman in playersStats[season]) {
       const { runs, totalballs } = playersStats[season][batsman];
