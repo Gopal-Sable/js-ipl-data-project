@@ -26,12 +26,9 @@ function playerDismissed() {
   let maxCount = 0;
   let dismissedBy = null;
 
- const dismissedArr=Object.entries(dismissedList)
-  for (let i = 0; i < dismissedArr.length; i++) {
-    const [batsman, dismissedRecord] = dismissedArr[i];
-    const dissmissedRecordArr= Object.entries(dismissedRecord)
-    for (let j = 0; j < dissmissedRecordArr.length; j++) {
-      const [bowler, wickets] = dissmissedRecordArr[j];
+  for (const batsman in dismissedList) {
+    for (const bowler in dismissedList[batsman]) {
+      let wickets = dismissedList[batsman][bowler];
       if (wickets > maxCount) {
         maxCount = wickets;
         mostDismissed = batsman;
