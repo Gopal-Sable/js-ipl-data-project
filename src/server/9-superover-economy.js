@@ -4,27 +4,23 @@ import writeFile from "../utility/fileWritter.js";
 const deliveries = readFile("./src/data/deliveries.json");
 
 function getBowlersStats() {
-  const bowlersStat = deliveries.reduce(
-    (
-      stats,
-      { is_super_over, wide_runs, noball_runs, batsman_runs, bowler }
-    ) => {
-      if (is_super_over === "1") {
-        let runs =
-          parseInt(wide_runs) + parseInt(noball_runs) + parseInt(batsman_runs);
+  const bowlersStat = {};
+  for (let i = 0; i < deliveries.length; i++) {
+    const { is_super_over, wide_runs, noball_runs, batsman_runs, bowler } =
+      deliveries[i];
+    if (is_super_over === "1") {
+      let runs =
+        parseInt(wide_runs) + parseInt(noball_runs) + parseInt(batsman_runs);
 
-        if (!stats[bowler]) {
-          stats[bowler] = { total_runs: 0, total_balls: 0 };
-        }
-        stats[bowler].total_runs += runs;
-        if (wide_runs === "0" && noball_runs === "0") {
-          stats[bowler].total_balls++;
-        }
+      if (!bowlersStat[bowler]) {
+        bowlersStat[bowler] = { total_runs: 0, total_balls: 0 };
       }
-      return stats;
-    },
-    {}
-  );
+      bowlersStat[bowler].total_runs += runs;
+      if (wide_runs === "0" && noball_runs === "0") {
+        bowlersStat[bowler].total_balls++;
+      }
+    }
+  }
   return bowlersStat;
 }
 

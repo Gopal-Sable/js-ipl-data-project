@@ -5,21 +5,18 @@ import writeFile from "../utility/fileWritter.js";
 const deliveries = readFile("./src/data/deliveries.json");
 
 function getDismissed() {
-  const dismissed = deliveries.reduce(
-    (players, { player_dismissed, bowler }) => {
-      if (player_dismissed) {
-        if (!players[player_dismissed]) {
-          players[player_dismissed] = {};
-        }
-        players[player_dismissed][bowler] =
-          (players[player_dismissed][bowler] || 0) + 1;
+  const dismissedPlayers = [];
+  for (let i = 0; i < deliveries.length; i++) {
+    const { player_dismissed, bowler } = deliveries[i];
+    if (player_dismissed) {
+      if (!dismissedPlayers[player_dismissed]) {
+        dismissedPlayers[player_dismissed] = {};
       }
-      return players;
-    },
-    {}
-  );
-
-  return dismissed;
+      dismissedPlayers[player_dismissed][bowler] =
+        (dismissedPlayers[player_dismissed][bowler] || 0) + 1;
+    }
+  }
+  return dismissedPlayers;
 }
 
 function playerDismissed() {
@@ -29,15 +26,21 @@ function playerDismissed() {
   let maxCount = 0;
   let dismissedBy = null;
 
-  Object.entries(dismissedList).forEach(([batsman, dismissRecord]) => {
-    Object.entries(dismissRecord).forEach(([bowler, wickets]) => {
-      if (wickets > maxCount) {
-        maxCount = wickets;
-        mostDismissed = batsman;
-        dismissedBy = bowler;
-      }
-    });
-  });
+
+  console.log(dismissedList);
+  for (let i = 0; i < dismissedList.length-200; i++) {
+    const [batsman, dismissedRecord] = dismissedList[i];
+      console.log(batsman,"hello",dismissedRecord);
+      
+    // for (let j = 0; j < dismissedRecord.length; j++) {
+    //   const [bowler, wickets] = dismissedRecord[j];
+    //   if (wickets > maxCount) {
+    //     maxCount = wickets;
+    //     mostDismissed = batsman;
+    //     dismissedBy = bowler;
+    //   }
+    // }
+  }
 
   const result = {
     batsman: mostDismissed,
