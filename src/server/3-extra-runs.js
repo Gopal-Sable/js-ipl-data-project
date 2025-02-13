@@ -1,4 +1,3 @@
-import { log } from "console";
 import readFile from "../utility/fileReader.js";
 import writeFile from "../utility/fileWritter.js";
 import getMatchIds from "../utility/getMatchIds.js";

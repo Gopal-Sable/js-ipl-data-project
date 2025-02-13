@@ -1,7 +1,6 @@
 import readFile from "../utility/fileReader.js";
 import writeFile from "../utility/fileWritter.js";
 const matches = readFile("./src/data/matches.json");
-const deliveries = readFile("./src/data/deliveries.json");
 // Find the number of times each team won the toss and also won the match
 
 const matchesWin = (matches) => {
