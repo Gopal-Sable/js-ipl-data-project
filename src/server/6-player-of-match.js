@@ -30,13 +30,20 @@ const manOfSeason = () => {
 
   let man = {};
   for (const year in playersStats) {
-    Object.entries(playersStats[year])
-      .sort((a, b) => b[1] - a[1])
-      .slice(0, 1)
-      .map(([player]) => {
-        man[year] = player;
-      });
+    let topPlayer = null;
+    let maxScore = -Infinity;
+
+    for (const player in playersStats[year]) {
+      if (playersStats[year][player] > maxScore) {
+        maxScore = playersStats[year][player];
+        topPlayer = player;
+      }
+    }
+    if (topPlayer !== null) {
+      man[year] = topPlayer;
+    }
   }
+
   return man;
 };
 // console.log(manOfSeason(matches));
