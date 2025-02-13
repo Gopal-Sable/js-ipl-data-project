@@ -59,12 +59,12 @@ function getTopEconomicalBowlers(year, topN = 10) {
 
   const bowlerstatArr = Object.entries(bowlersStat);
   let economyData = [];
-  for (let i = 0; i < bowlerstatArr.length; i++) {
-    const [bowler, { total_runs, total_balls }] = bowlerstatArr[i];
-    let economy = Math.round((total_runs / (total_balls / 6)) * 100) / 100;
-
-    economyData.push({ bowler, economy });
+  for (const bowler in bowlersStat) {
+    const {total_runs, total_balls }=bowlersStat[bowler]
+    let economy = (total_runs*6 / total_balls).toFixed(2);
+    economyData.push({bowler,economy})
   }
+ 
   const result = economyData
     .sort((a, b) => {
       return a.economy - b.economy;
